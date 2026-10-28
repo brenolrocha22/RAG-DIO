@@ -1,0 +1,31 @@
+[project]
+user_env = []
+session_timeout = 3600
+user_session_timeout = 1296000
+cache = false
+persist_user_env = false
+mask_user_env = true
+allow_origins = ["http://localhost:8001", "http://127.0.0.1:8001"]
+
+[features]
+unsafe_allow_html = false
+latex = false
+user_message_markdown = true
+user_message_autoscroll = true
+assistant_message_autoscroll = true
+edit_message = true
+allow_thread_sharing = false
+favorites = false
+
+[features.spontaneous_file_upload]
+enabled = false
+
+[UI]
+name = "RAG de vendas de carros"
+language = "pt-BR"
+confirm_new_chat = true
+cot = "hidden"
+
+[meta]
+generated_by = "2.11.0"
+

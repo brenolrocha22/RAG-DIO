@@ -4,11 +4,9 @@ services:
     env_file:
       - .env
     ports:
-      - "8000:8000"
+      - "8001:8000"
     volumes:
-      - ./data:/app/data
-      - index_data:/app/storage
+      - ./data:/app/data:ro
+      - ./storage:/app/storage
     restart: unless-stopped
 
-volumes:
-  index_data:

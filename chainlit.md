@@ -1,5 +1,4 @@
-# Chatbot RAG de vendas
+# RAG de vendas de carros
 
-Olá! Pergunte sobre os dados de vendas carregados na base. O assistente responde em português usando os arquivos da pasta `data`.
+Pergunte sobre vendas, veículos ou regiões presentes nos dados. As respostas usam os registros recuperados da base; confirme informações importantes diretamente nos CSVs.
 
-Para adicionar ou atualizar dados, coloque os arquivos nessa pasta e reinicie o servidor local.
