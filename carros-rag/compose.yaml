@@ -1,0 +1,12 @@
+services:
+  chat:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./data:/app/data:ro
+      - ./storage:/app/storage
+    restart: unless-stopped
+

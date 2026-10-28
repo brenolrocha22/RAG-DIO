@@ -1,0 +1,11 @@
+chainlit==2.11.0
+chromadb>=1.5
+fastapi==0.135.2
+llama-index-core>=0.14
+llama-index-embeddings-fastembed
+llama-index-llms-openrouter>=0.6
+llama-index-vector-stores-chroma>=0.6
+python-dotenv>=1.2
+anyio==4.10.0
+starlette==0.50.0
+fastembed>=0.7

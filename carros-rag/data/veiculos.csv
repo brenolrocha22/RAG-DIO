@@ -1,0 +1,55 @@
+vehicle_id,marca,modelo
+VEI-0001,BMW,BMW Série 1
+VEI-0002,BMW,BMW Série 3
+VEI-0003,BMW,BMW Série 5
+VEI-0004,BMW,I8
+VEI-0005,BMW,X3
+VEI-0006,BMW,X5
+VEI-0007,BMW,X6
+VEI-0008,BMW,Z4
+VEI-0009,Chevrolet,Camaro
+VEI-0010,Chevrolet,Cruze
+VEI-0011,Chevrolet,Equinox
+VEI-0012,Chevrolet,Joy
+VEI-0013,Chevrolet,Onix
+VEI-0014,Chevrolet,Prisma
+VEI-0015,Chevrolet,Spin
+VEI-0016,Chevrolet,Tracker
+VEI-0017,Ferrari,308 GTS
+VEI-0018,Ferrari,488
+VEI-0019,Ferrari,Dino 246
+VEI-0020,Ferrari,Enzo
+VEI-0021,Ferrari,F50
+VEI-0022,Ferrari,F8
+VEI-0023,Ferrari,LaFerrari
+VEI-0024,Ferrari,Portofino
+VEI-0025,Ford,Ecosport
+VEI-0026,Ford,Edge
+VEI-0027,Ford,Fiesta
+VEI-0028,Ford,Fusion
+VEI-0029,Ford,Ka
+VEI-0030,Ford,Mustang
+VEI-0031,Ford,Ranger
+VEI-0032,Ford,Teritory
+VEI-0033,Honda,Accord
+VEI-0034,Honda,City
+VEI-0035,Honda,Civic
+VEI-0036,Honda,CR-V
+VEI-0037,Honda,Fit
+VEI-0038,Honda,HR-V
+VEI-0039,Honda,NSX
+VEI-0040,Honda,S2000
+VEI-0041,Renault,Clio
+VEI-0042,Renault,Duster
+VEI-0043,Renault,Grand Tour
+VEI-0044,Renault,Kwid
+VEI-0045,Renault,Logan
+VEI-0046,Renault,Sandero
+VEI-0047,Volkswagen,Fox
+VEI-0048,Volkswagen,Gol
+VEI-0049,Volkswagen,Golf
+VEI-0050,Volkswagen,Jetta
+VEI-0051,Volkswagen,Passat
+VEI-0052,Volkswagen,Polo
+VEI-0053,Volkswagen,UP!
+VEI-0054,Volkswagen,Voyage
