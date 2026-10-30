@@ -9,3 +9,4 @@ storage/
 chroma_db/
 .pytest_cache/
 
+.chainlit/translations/

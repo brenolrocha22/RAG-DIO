@@ -1,4 +1,4 @@
 # RAG de vendas de carros
 
-Pergunte sobre vendas, veículos ou regiões presentes nos dados. As respostas usam os registros recuperados da base; confirme informações importantes diretamente nos CSVs.
+Pergunte sobre vendas, marcas, modelos, países, regiões e anos. O assistente consulta resumos pré-calculados, vendas individuais e um banco SQL; cada ferramenta usada aparece na conversa.
 

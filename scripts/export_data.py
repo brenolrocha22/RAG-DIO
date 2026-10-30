@@ -128,12 +128,10 @@ def export_workbook(workbook_path: Path, output_dir: Path) -> tuple[int, int, in
         for vehicle in vehicles
     ]
 
-    customer_keys = sorted(
-        {
-            (row["nome"], row["pais"], row["regiao"])
-            for row in source_rows
-        },
-        key=lambda item: tuple(value.casefold() for value in item),
+    # Numera os clientes pela ordem da primeira compra, e não pelo nome, para que
+    # o identificador anônimo não revele a ordem alfabética dos nomes originais.
+    customer_keys = list(
+        dict.fromkeys((row["nome"], row["pais"], row["regiao"]) for row in source_rows)
     )
     customer_ids = {
         customer: f"CLI-{position:04d}"

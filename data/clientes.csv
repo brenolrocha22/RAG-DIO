@@ -1,957 +1,957 @@
 customer_id,pais,regiao
-CLI-0010,Argentina,Tucumán
-CLI-0018,Argentina,Chaco
-CLI-0020,Argentina,Córdova
-CLI-0024,Argentina,Chaco
-CLI-0026,Argentina,Tucumán
-CLI-0036,Argentina,Buenos Aires
-CLI-0047,Argentina,Mendonza
-CLI-0050,Argentina,Tucumán
-CLI-0065,Argentina,Mendonza
-CLI-0067,Argentina,Chaco
-CLI-0071,Argentina,Tucumán
-CLI-0088,Argentina,Tucumán
-CLI-0097,Argentina,Chaco
-CLI-0099,Argentina,Chaco
-CLI-0105,Argentina,Chaco
-CLI-0117,Argentina,Buenos Aires
-CLI-0124,Argentina,Buenos Aires
-CLI-0136,Argentina,Córdova
-CLI-0147,Argentina,Córdova
-CLI-0168,Argentina,Tucumán
-CLI-0169,Argentina,Chaco
-CLI-0171,Argentina,Córdova
-CLI-0176,Argentina,Tucumán
-CLI-0179,Argentina,Buenos Aires
-CLI-0186,Argentina,Córdova
-CLI-0192,Argentina,Tucumán
-CLI-0200,Argentina,Córdova
-CLI-0212,Argentina,Chaco
-CLI-0222,Argentina,Mendonza
-CLI-0225,Argentina,Chaco
-CLI-0227,Argentina,Córdova
-CLI-0230,Argentina,Córdova
-CLI-0245,Argentina,Córdova
-CLI-0264,Argentina,Buenos Aires
-CLI-0272,Argentina,Mendonza
-CLI-0285,Argentina,Chaco
-CLI-0296,Argentina,Chaco
-CLI-0301,Argentina,Chaco
-CLI-0334,Argentina,Tucumán
-CLI-0339,Argentina,Chaco
-CLI-0345,Argentina,Chaco
-CLI-0357,Argentina,Chaco
-CLI-0359,Argentina,Mendonza
-CLI-0364,Argentina,Mendonza
-CLI-0366,Argentina,Chaco
-CLI-0369,Argentina,Córdova
-CLI-0370,Argentina,Mendonza
-CLI-0373,Argentina,Tucumán
-CLI-0374,Argentina,Chaco
-CLI-0405,Argentina,Chaco
-CLI-0425,Argentina,Mendonza
-CLI-0426,Argentina,Córdova
-CLI-0428,Argentina,Chaco
-CLI-0436,Argentina,Chaco
-CLI-0439,Argentina,Mendonza
-CLI-0451,Argentina,Buenos Aires
-CLI-0454,Argentina,Tucumán
-CLI-0458,Argentina,Córdova
-CLI-0465,Argentina,Buenos Aires
-CLI-0474,Argentina,Córdova
-CLI-0483,Argentina,Buenos Aires
-CLI-0493,Argentina,Mendonza
-CLI-0501,Argentina,Chaco
-CLI-0502,Argentina,Mendonza
-CLI-0511,Argentina,Córdova
-CLI-0525,Argentina,Mendonza
-CLI-0527,Argentina,Tucumán
-CLI-0530,Argentina,Córdova
-CLI-0535,Argentina,Tucumán
-CLI-0555,Argentina,Buenos Aires
-CLI-0556,Argentina,Chaco
-CLI-0565,Argentina,Buenos Aires
-CLI-0586,Argentina,Tucumán
-CLI-0599,Argentina,Mendonza
-CLI-0601,Argentina,Mendonza
-CLI-0604,Argentina,Chaco
-CLI-0622,Argentina,Córdova
-CLI-0641,Argentina,Buenos Aires
-CLI-0651,Argentina,Córdova
-CLI-0658,Argentina,Tucumán
-CLI-0661,Argentina,Mendonza
-CLI-0666,Argentina,Mendonza
-CLI-0671,Argentina,Mendonza
-CLI-0680,Argentina,Buenos Aires
-CLI-0689,Argentina,Mendonza
-CLI-0697,Argentina,Córdova
-CLI-0698,Argentina,Buenos Aires
-CLI-0700,Argentina,Chaco
-CLI-0702,Argentina,Chaco
-CLI-0704,Argentina,Córdova
-CLI-0705,Argentina,Mendonza
-CLI-0709,Argentina,Tucumán
-CLI-0711,Argentina,Chaco
-CLI-0726,Argentina,Chaco
-CLI-0746,Argentina,Chaco
-CLI-0758,Argentina,Tucumán
-CLI-0766,Argentina,Chaco
-CLI-0771,Argentina,Córdova
-CLI-0775,Argentina,Buenos Aires
-CLI-0781,Argentina,Buenos Aires
-CLI-0782,Argentina,Córdova
-CLI-0786,Argentina,Mendonza
-CLI-0804,Argentina,Tucumán
-CLI-0810,Argentina,Córdova
-CLI-0816,Argentina,Mendonza
-CLI-0830,Argentina,Tucumán
-CLI-0843,Argentina,Córdova
-CLI-0847,Argentina,Buenos Aires
-CLI-0854,Argentina,Mendonza
-CLI-0887,Argentina,Mendonza
-CLI-0902,Argentina,Chaco
-CLI-0915,Argentina,Tucumán
-CLI-0922,Argentina,Buenos Aires
-CLI-0928,Argentina,Chaco
-CLI-0935,Argentina,Córdova
-CLI-0951,Argentina,Buenos Aires
-CLI-0002,Brazil,Rio Grande do Sul
-CLI-0003,Brazil,Rio de Janeiro
-CLI-0004,Brazil,Rio Grande do Sul
-CLI-0006,Brazil,Rio Grande do Sul
-CLI-0021,Brazil,São Paulo
-CLI-0029,Brazil,Rio Grande do Norte
-CLI-0030,Brazil,Minas Gerais
-CLI-0034,Brazil,Amazonas
+CLI-0001,Brazil,São Paulo
+CLI-0002,Argentina,Buenos Aires
+CLI-0003,France,Marselha
+CLI-0004,United States,Washington
+CLI-0005,China,Sichuan
+CLI-0006,United States,Washington
+CLI-0007,France,Lyon
+CLI-0008,Brazil,Rio de Janeiro
+CLI-0009,Argentina,Chaco
+CLI-0010,Argentina,Mendonza
+CLI-0011,France,Marselha
+CLI-0012,United States,Florida
+CLI-0013,United States,Oklahoma
+CLI-0014,China,Shandong
+CLI-0015,France,Marselha
+CLI-0016,China,Xangai
+CLI-0017,Argentina,Chaco
+CLI-0018,United States,Florida
+CLI-0019,Argentina,Córdova
+CLI-0020,Brazil,Maranhão
+CLI-0021,Brazil,Amazonas
+CLI-0022,Argentina,Chaco
+CLI-0023,Argentina,Chaco
+CLI-0024,France,Tolouse
+CLI-0025,Argentina,Tucumán
+CLI-0026,Argentina,Chaco
+CLI-0027,Brazil,Minas Gerais
+CLI-0028,Brazil,Rio de Janeiro
+CLI-0029,Argentina,Tucumán
+CLI-0030,Brazil,Rio Grande do Sul
+CLI-0031,Brazil,Maranhão
+CLI-0032,China,Hubei
+CLI-0033,China,Hubei
+CLI-0034,Brazil,Espirito Santo
+CLI-0035,France,Nice
+CLI-0036,China,Hubei
 CLI-0037,Brazil,São Paulo
-CLI-0042,Brazil,Santa Catarina
-CLI-0043,Brazil,São Paulo
-CLI-0046,Brazil,Santa Catarina
-CLI-0051,Brazil,São Paulo
-CLI-0052,Brazil,Pará
-CLI-0056,Brazil,Espirito Santo
-CLI-0057,Brazil,Bahia
-CLI-0058,Brazil,Rio de Janeiro
-CLI-0059,Brazil,São Paulo
-CLI-0070,Brazil,Bahia
-CLI-0072,Brazil,Bahia
-CLI-0075,Brazil,Rio Grande do Sul
-CLI-0078,Brazil,Minas Gerais
-CLI-0090,Brazil,São Paulo
-CLI-0091,Brazil,Rio de Janeiro
-CLI-0092,Brazil,Rio Grande do Sul
-CLI-0094,Brazil,Rio Grande do Norte
-CLI-0096,Brazil,Espirito Santo
-CLI-0100,Brazil,Rio Grande do Norte
-CLI-0106,Brazil,Pernambuco
-CLI-0114,Brazil,Bahia
-CLI-0119,Brazil,Santa Catarina
-CLI-0120,Brazil,Rio de Janeiro
-CLI-0127,Brazil,Espirito Santo
-CLI-0130,Brazil,São Paulo
-CLI-0133,Brazil,Goiás
-CLI-0138,Brazil,Minas Gerais
-CLI-0141,Brazil,São Paulo
-CLI-0144,Brazil,Santa Catarina
-CLI-0145,Brazil,Rio Grande do Norte
-CLI-0148,Brazil,Pará
-CLI-0149,Brazil,São Paulo
-CLI-0155,Brazil,Bahia
-CLI-0158,Brazil,Rio Grande do Sul
-CLI-0166,Brazil,São Paulo
-CLI-0175,Brazil,Rio Grande do Sul
-CLI-0180,Brazil,Maranhão
-CLI-0182,Brazil,Rio Grande do Norte
-CLI-0184,Brazil,Espirito Santo
-CLI-0189,Brazil,Minas Gerais
-CLI-0190,Brazil,São Paulo
-CLI-0191,Brazil,Santa Catarina
-CLI-0194,Brazil,Bahia
-CLI-0197,Brazil,São Paulo
-CLI-0201,Brazil,Rio Grande do Sul
-CLI-0202,Brazil,Rio de Janeiro
-CLI-0203,Brazil,Rio Grande do Norte
-CLI-0204,Brazil,Goiás
-CLI-0207,Brazil,São Paulo
-CLI-0211,Brazil,Santa Catarina
-CLI-0217,Brazil,São Paulo
-CLI-0228,Brazil,São Paulo
-CLI-0231,Brazil,São Paulo
-CLI-0236,Brazil,Minas Gerais
-CLI-0241,Brazil,Rio de Janeiro
-CLI-0242,Brazil,Minas Gerais
-CLI-0252,Brazil,Espirito Santo
-CLI-0254,Brazil,Rio Grande do Sul
-CLI-0255,Brazil,Pernambuco
-CLI-0258,Brazil,Rio de Janeiro
-CLI-0259,Brazil,São Paulo
-CLI-0263,Brazil,Goiás
-CLI-0265,Brazil,Minas Gerais
-CLI-0266,Brazil,São Paulo
-CLI-0269,Brazil,Goiás
-CLI-0271,Brazil,Espirito Santo
-CLI-0275,Brazil,Rio de Janeiro
-CLI-0280,Brazil,Minas Gerais
-CLI-0283,Brazil,São Paulo
-CLI-0288,Brazil,Santa Catarina
-CLI-0294,Brazil,Pernambuco
-CLI-0295,Brazil,Pernambuco
-CLI-0302,Brazil,Pernambuco
-CLI-0305,Brazil,São Paulo
-CLI-0308,Brazil,Rio de Janeiro
-CLI-0312,Brazil,Goiás
-CLI-0313,Brazil,Minas Gerais
-CLI-0314,Brazil,Rio de Janeiro
-CLI-0320,Brazil,Rio Grande do Sul
-CLI-0321,Brazil,Rio Grande do Sul
-CLI-0323,Brazil,Espirito Santo
-CLI-0328,Brazil,Maranhão
-CLI-0329,Brazil,São Paulo
-CLI-0330,Brazil,Santa Catarina
-CLI-0333,Brazil,Pernambuco
-CLI-0360,Brazil,Rio Grande do Sul
-CLI-0361,Brazil,Maranhão
-CLI-0372,Brazil,São Paulo
-CLI-0376,Brazil,Espirito Santo
-CLI-0381,Brazil,Espirito Santo
-CLI-0393,Brazil,São Paulo
-CLI-0394,Brazil,Rio de Janeiro
-CLI-0410,Brazil,Santa Catarina
-CLI-0419,Brazil,Bahia
-CLI-0422,Brazil,Bahia
-CLI-0427,Brazil,Rio de Janeiro
-CLI-0431,Brazil,Pernambuco
-CLI-0432,Brazil,São Paulo
-CLI-0435,Brazil,São Paulo
-CLI-0444,Brazil,Rio de Janeiro
-CLI-0453,Brazil,São Paulo
-CLI-0462,Brazil,Pernambuco
-CLI-0464,Brazil,Rio Grande do Norte
-CLI-0467,Brazil,Amazonas
-CLI-0468,Brazil,São Paulo
-CLI-0473,Brazil,Santa Catarina
-CLI-0475,Brazil,Rio Grande do Norte
-CLI-0476,Brazil,São Paulo
-CLI-0477,Brazil,Rio de Janeiro
-CLI-0479,Brazil,Bahia
-CLI-0480,Brazil,Rio de Janeiro
-CLI-0486,Brazil,São Paulo
-CLI-0487,Brazil,Maranhão
-CLI-0490,Brazil,Rio Grande do Sul
-CLI-0491,Brazil,Minas Gerais
-CLI-0492,Brazil,Amazonas
-CLI-0495,Brazil,Minas Gerais
-CLI-0498,Brazil,Santa Catarina
-CLI-0504,Brazil,Minas Gerais
-CLI-0512,Brazil,Maranhão
-CLI-0516,Brazil,Bahia
-CLI-0517,Brazil,Rio Grande do Sul
-CLI-0521,Brazil,São Paulo
-CLI-0534,Brazil,Santa Catarina
-CLI-0536,Brazil,Pernambuco
-CLI-0541,Brazil,Espirito Santo
-CLI-0545,Brazil,Bahia
-CLI-0548,Brazil,Goiás
-CLI-0549,Brazil,São Paulo
-CLI-0561,Brazil,Rio de Janeiro
-CLI-0562,Brazil,Bahia
-CLI-0571,Brazil,Rio de Janeiro
-CLI-0572,Brazil,Bahia
-CLI-0584,Brazil,Espirito Santo
-CLI-0589,Brazil,Espirito Santo
-CLI-0590,Brazil,Bahia
-CLI-0606,Brazil,Minas Gerais
-CLI-0608,Brazil,São Paulo
-CLI-0611,Brazil,Minas Gerais
-CLI-0614,Brazil,São Paulo
-CLI-0625,Brazil,Pernambuco
-CLI-0632,Brazil,Rio de Janeiro
-CLI-0633,Brazil,Pernambuco
-CLI-0634,Brazil,São Paulo
-CLI-0635,Brazil,São Paulo
-CLI-0636,Brazil,Pernambuco
-CLI-0646,Brazil,Rio de Janeiro
-CLI-0654,Brazil,Goiás
-CLI-0656,Brazil,Bahia
-CLI-0670,Brazil,Maranhão
-CLI-0674,Brazil,Goiás
-CLI-0682,Brazil,Pernambuco
-CLI-0686,Brazil,São Paulo
-CLI-0688,Brazil,Bahia
-CLI-0691,Brazil,São Paulo
-CLI-0692,Brazil,Santa Catarina
-CLI-0696,Brazil,São Paulo
-CLI-0699,Brazil,Rio de Janeiro
-CLI-0712,Brazil,Rio de Janeiro
-CLI-0714,Brazil,Pernambuco
-CLI-0715,Brazil,Rio Grande do Norte
-CLI-0717,Brazil,Espirito Santo
-CLI-0722,Brazil,Espirito Santo
-CLI-0723,Brazil,Minas Gerais
-CLI-0724,Brazil,São Paulo
-CLI-0733,Brazil,Rio Grande do Norte
-CLI-0735,Brazil,Goiás
-CLI-0736,Brazil,Santa Catarina
-CLI-0737,Brazil,Rio de Janeiro
-CLI-0745,Brazil,São Paulo
-CLI-0747,Brazil,Santa Catarina
-CLI-0755,Brazil,São Paulo
-CLI-0761,Brazil,Santa Catarina
-CLI-0765,Brazil,Rio de Janeiro
-CLI-0767,Brazil,Bahia
-CLI-0770,Brazil,Rio Grande do Norte
-CLI-0776,Brazil,Rio Grande do Sul
-CLI-0785,Brazil,Rio de Janeiro
-CLI-0793,Brazil,Rio Grande do Sul
-CLI-0794,Brazil,Rio Grande do Sul
-CLI-0802,Brazil,Rio Grande do Sul
-CLI-0811,Brazil,Rio de Janeiro
-CLI-0814,Brazil,Minas Gerais
-CLI-0817,Brazil,Minas Gerais
-CLI-0820,Brazil,Santa Catarina
-CLI-0822,Brazil,Pernambuco
-CLI-0823,Brazil,Minas Gerais
-CLI-0825,Brazil,Bahia
-CLI-0833,Brazil,Pernambuco
-CLI-0837,Brazil,Amazonas
-CLI-0838,Brazil,Rio Grande do Sul
-CLI-0841,Brazil,Rio Grande do Norte
-CLI-0850,Brazil,Amazonas
-CLI-0856,Brazil,Santa Catarina
-CLI-0860,Brazil,Maranhão
-CLI-0862,Brazil,Rio de Janeiro
-CLI-0868,Brazil,Minas Gerais
-CLI-0874,Brazil,Santa Catarina
-CLI-0881,Brazil,São Paulo
-CLI-0884,Brazil,Minas Gerais
-CLI-0886,Brazil,São Paulo
-CLI-0888,Brazil,Maranhão
-CLI-0893,Brazil,Santa Catarina
-CLI-0894,Brazil,Rio Grande do Norte
-CLI-0898,Brazil,São Paulo
-CLI-0900,Brazil,Rio de Janeiro
-CLI-0904,Brazil,Bahia
-CLI-0905,Brazil,São Paulo
-CLI-0910,Brazil,Rio Grande do Norte
-CLI-0914,Brazil,Santa Catarina
-CLI-0918,Brazil,Santa Catarina
-CLI-0931,Brazil,Rio Grande do Sul
-CLI-0932,Brazil,Maranhão
-CLI-0940,Brazil,Rio Grande do Norte
-CLI-0942,Brazil,Rio Grande do Norte
-CLI-0945,Brazil,Santa Catarina
-CLI-0950,Brazil,Rio Grande do Sul
-CLI-0952,Brazil,São Paulo
-CLI-0954,Brazil,Minas Gerais
-CLI-0011,China,Hubei
-CLI-0017,China,Xangai
-CLI-0019,China,Pequim
-CLI-0022,China,Sichuan
-CLI-0023,China,Hubei
-CLI-0031,China,Shandong
-CLI-0032,China,Pequim
-CLI-0044,China,Shandong
-CLI-0049,China,Sichuan
-CLI-0055,China,Sichuan
-CLI-0060,China,Xangai
-CLI-0064,China,Xangai
-CLI-0068,China,Shandong
-CLI-0069,China,Xangai
-CLI-0074,China,Sichuan
-CLI-0080,China,Pequim
-CLI-0081,China,Hubei
-CLI-0083,China,Shandong
-CLI-0093,China,Hubei
-CLI-0112,China,Xangai
-CLI-0113,China,Hubei
-CLI-0115,China,Pequim
-CLI-0116,China,Shandong
-CLI-0123,China,Hubei
-CLI-0125,China,Xangai
-CLI-0129,China,Sichuan
-CLI-0134,China,Shandong
-CLI-0137,China,Sichuan
-CLI-0150,China,Sichuan
+CLI-0038,Brazil,Bahia
+CLI-0039,China,Pequim
+CLI-0040,China,Pequim
+CLI-0041,France,Paris
+CLI-0042,United States,Florida
+CLI-0043,China,Pequim
+CLI-0044,Japan,Saitama
+CLI-0045,United States,Oklahoma
+CLI-0046,France,Tolouse
+CLI-0047,Japan,Osaka
+CLI-0048,China,Shandong
+CLI-0049,Argentina,Córdova
+CLI-0050,Brazil,São Paulo
+CLI-0051,France,Paris
+CLI-0052,Japan,Kyoto
+CLI-0053,Japan,Kyoto
+CLI-0054,United States,Ohio
+CLI-0055,France,Nice
+CLI-0056,China,Sichuan
+CLI-0057,Argentina,Córdova
+CLI-0058,France,Paris
+CLI-0059,China,Sichuan
+CLI-0060,Argentina,Chaco
+CLI-0061,Japan,Saitama
+CLI-0062,Japan,Yokohama
+CLI-0063,Brazil,Santa Catarina
+CLI-0064,China,Pequim
+CLI-0065,United States,Florida
+CLI-0066,Japan,Osaka
+CLI-0067,China,Shandong
+CLI-0068,France,Marselha
+CLI-0069,Brazil,Maranhão
+CLI-0070,Japan,Yokohama
+CLI-0071,Argentina,Mendonza
+CLI-0072,China,Shandong
+CLI-0073,France,Nice
+CLI-0074,China,Pequim
+CLI-0075,United States,Florida
+CLI-0076,Argentina,Chaco
+CLI-0077,Brazil,Bahia
+CLI-0078,France,Marselha
+CLI-0079,Japan,Osaka
+CLI-0080,China,Hubei
+CLI-0081,Brazil,Rio Grande do Norte
+CLI-0082,Brazil,São Paulo
+CLI-0083,China,Xangai
+CLI-0084,United States,Washington
+CLI-0085,France,Marselha
+CLI-0086,United States,California
+CLI-0087,France,Lyon
+CLI-0088,China,Hubei
+CLI-0089,Argentina,Tucumán
+CLI-0090,China,Pequim
+CLI-0091,Brazil,Espirito Santo
+CLI-0092,Brazil,Pernambuco
+CLI-0093,United States,California
+CLI-0094,China,Shandong
+CLI-0095,Japan,Saitama
+CLI-0096,Brazil,Rio de Janeiro
+CLI-0097,Brazil,Bahia
+CLI-0098,Japan,Osaka
+CLI-0099,United States,Florida
+CLI-0100,Argentina,Mendonza
+CLI-0101,Japan,Osaka
+CLI-0102,China,Xangai
+CLI-0103,France,Paris
+CLI-0104,China,Xangai
+CLI-0105,United States,Florida
+CLI-0106,China,Sichuan
+CLI-0107,Japan,Yokohama
+CLI-0108,Argentina,Mendonza
+CLI-0109,Argentina,Tucumán
+CLI-0110,Brazil,Espirito Santo
+CLI-0111,China,Xangai
+CLI-0112,Brazil,São Paulo
+CLI-0113,China,Pequim
+CLI-0114,China,Hubei
+CLI-0115,France,Paris
+CLI-0116,China,Xangai
+CLI-0117,China,Shandong
+CLI-0118,Argentina,Tucumán
+CLI-0119,Brazil,Goiás
+CLI-0120,Brazil,Santa Catarina
+CLI-0121,Argentina,Buenos Aires
+CLI-0122,United States,Florida
+CLI-0123,Japan,Tokyo
+CLI-0124,Argentina,Córdova
+CLI-0125,Japan,Yokohama
+CLI-0126,Argentina,Tucumán
+CLI-0127,Brazil,Rio Grande do Sul
+CLI-0128,United States,Oklahoma
+CLI-0129,France,Marselha
+CLI-0130,China,Sichuan
+CLI-0131,United States,Washington
+CLI-0132,China,Xangai
+CLI-0133,Japan,Tokyo
+CLI-0134,United States,California
+CLI-0135,Brazil,Rio Grande do Norte
+CLI-0136,Brazil,Rio Grande do Sul
+CLI-0137,Brazil,Rio Grande do Sul
+CLI-0138,Argentina,Córdova
+CLI-0139,France,Marselha
+CLI-0140,Brazil,Espirito Santo
+CLI-0141,China,Pequim
+CLI-0142,Brazil,São Paulo
+CLI-0143,United States,California
+CLI-0144,Brazil,Minas Gerais
+CLI-0145,China,Pequim
+CLI-0146,Argentina,Córdova
+CLI-0147,Argentina,Buenos Aires
+CLI-0148,Brazil,Bahia
+CLI-0149,France,Tolouse
+CLI-0150,Argentina,Chaco
+CLI-0151,France,Lyon
+CLI-0152,United States,Florida
 CLI-0153,China,Shandong
 CLI-0154,China,Pequim
-CLI-0159,China,Pequim
-CLI-0160,China,Pequim
-CLI-0162,China,Hubei
-CLI-0165,China,Xangai
-CLI-0170,China,Xangai
-CLI-0188,China,Hubei
-CLI-0206,China,Xangai
-CLI-0223,China,Shandong
-CLI-0224,China,Hubei
-CLI-0226,China,Hubei
-CLI-0246,China,Sichuan
-CLI-0247,China,Hubei
-CLI-0251,China,Shandong
-CLI-0253,China,Shandong
-CLI-0260,China,Hubei
-CLI-0270,China,Pequim
-CLI-0273,China,Hubei
-CLI-0276,China,Shandong
-CLI-0282,China,Shandong
-CLI-0284,China,Xangai
-CLI-0287,China,Sichuan
-CLI-0297,China,Shandong
-CLI-0298,China,Xangai
-CLI-0304,China,Pequim
-CLI-0306,China,Pequim
-CLI-0307,China,Hubei
-CLI-0310,China,Shandong
-CLI-0317,China,Pequim
-CLI-0319,China,Hubei
-CLI-0322,China,Sichuan
-CLI-0324,China,Xangai
-CLI-0325,China,Sichuan
-CLI-0335,China,Shandong
-CLI-0336,China,Hubei
-CLI-0346,China,Pequim
-CLI-0347,China,Xangai
-CLI-0349,China,Xangai
-CLI-0351,China,Sichuan
-CLI-0352,China,Sichuan
-CLI-0354,China,Hubei
-CLI-0362,China,Sichuan
-CLI-0365,China,Hubei
-CLI-0368,China,Hubei
-CLI-0378,China,Pequim
-CLI-0382,China,Pequim
-CLI-0387,China,Xangai
-CLI-0390,China,Shandong
-CLI-0391,China,Shandong
-CLI-0398,China,Shandong
-CLI-0411,China,Hubei
-CLI-0415,China,Xangai
-CLI-0416,China,Hubei
-CLI-0420,China,Sichuan
-CLI-0424,China,Pequim
-CLI-0437,China,Pequim
-CLI-0443,China,Sichuan
-CLI-0445,China,Hubei
-CLI-0446,China,Pequim
-CLI-0452,China,Pequim
-CLI-0459,China,Shandong
-CLI-0460,China,Sichuan
-CLI-0469,China,Pequim
-CLI-0472,China,Hubei
-CLI-0478,China,Shandong
-CLI-0489,China,Shandong
-CLI-0497,China,Hubei
-CLI-0513,China,Xangai
-CLI-0518,China,Hubei
-CLI-0524,China,Hubei
-CLI-0526,China,Pequim
-CLI-0529,China,Hubei
-CLI-0532,China,Pequim
-CLI-0533,China,Xangai
-CLI-0542,China,Xangai
-CLI-0550,China,Shandong
-CLI-0564,China,Shandong
-CLI-0566,China,Hubei
-CLI-0568,China,Pequim
-CLI-0570,China,Xangai
-CLI-0575,China,Shandong
-CLI-0578,China,Shandong
-CLI-0579,China,Shandong
-CLI-0585,China,Shandong
-CLI-0598,China,Hubei
-CLI-0602,China,Xangai
-CLI-0603,China,Pequim
-CLI-0619,China,Shandong
-CLI-0627,China,Hubei
-CLI-0637,China,Hubei
-CLI-0639,China,Shandong
-CLI-0650,China,Xangai
-CLI-0652,China,Pequim
-CLI-0663,China,Hubei
-CLI-0664,China,Xangai
-CLI-0669,China,Hubei
-CLI-0673,China,Hubei
-CLI-0679,China,Sichuan
-CLI-0681,China,Hubei
-CLI-0683,China,Pequim
-CLI-0701,China,Sichuan
-CLI-0703,China,Pequim
-CLI-0713,China,Xangai
-CLI-0719,China,Shandong
-CLI-0721,China,Sichuan
-CLI-0725,China,Pequim
-CLI-0730,China,Sichuan
-CLI-0734,China,Xangai
-CLI-0744,China,Hubei
-CLI-0748,China,Xangai
-CLI-0753,China,Hubei
-CLI-0754,China,Sichuan
-CLI-0757,China,Xangai
-CLI-0762,China,Shandong
-CLI-0763,China,Sichuan
-CLI-0764,China,Shandong
-CLI-0772,China,Sichuan
-CLI-0774,China,Sichuan
-CLI-0777,China,Pequim
-CLI-0784,China,Pequim
-CLI-0787,China,Pequim
-CLI-0790,China,Pequim
-CLI-0800,China,Pequim
-CLI-0806,China,Sichuan
-CLI-0807,China,Shandong
-CLI-0813,China,Xangai
-CLI-0821,China,Xangai
-CLI-0828,China,Sichuan
-CLI-0834,China,Sichuan
-CLI-0842,China,Sichuan
-CLI-0844,China,Xangai
-CLI-0846,China,Sichuan
-CLI-0857,China,Pequim
-CLI-0858,China,Hubei
-CLI-0866,China,Pequim
-CLI-0867,China,Xangai
-CLI-0873,China,Sichuan
-CLI-0878,China,Hubei
-CLI-0885,China,Sichuan
-CLI-0897,China,Sichuan
-CLI-0906,China,Sichuan
-CLI-0908,China,Pequim
-CLI-0912,China,Xangai
-CLI-0916,China,Pequim
-CLI-0921,China,Sichuan
-CLI-0934,China,Xangai
-CLI-0936,China,Hubei
-CLI-0943,China,Xangai
-CLI-0948,China,Sichuan
-CLI-0953,China,Pequim
-CLI-0005,France,Lyon
-CLI-0008,France,Tolouse
-CLI-0009,France,Lyon
-CLI-0014,France,Paris
-CLI-0015,France,Nice
-CLI-0016,France,Paris
-CLI-0027,France,Marselha
-CLI-0033,France,Tolouse
-CLI-0035,France,Tolouse
-CLI-0048,France,Nice
-CLI-0053,France,Lyon
-CLI-0076,France,Marselha
-CLI-0079,France,Marselha
-CLI-0082,France,Nice
-CLI-0084,France,Lyon
-CLI-0085,France,Paris
-CLI-0086,France,Tolouse
-CLI-0087,France,Nice
-CLI-0104,France,Nice
-CLI-0108,France,Tolouse
-CLI-0118,France,Marselha
-CLI-0122,France,Nice
-CLI-0126,France,Tolouse
-CLI-0132,France,Paris
-CLI-0139,France,Tolouse
-CLI-0142,France,Marselha
-CLI-0152,France,Nice
-CLI-0173,France,Lyon
-CLI-0174,France,Paris
-CLI-0181,France,Paris
-CLI-0183,France,Lyon
-CLI-0187,France,Nice
-CLI-0196,France,Tolouse
-CLI-0208,France,Marselha
-CLI-0219,France,Nice
-CLI-0229,France,Marselha
-CLI-0232,France,Tolouse
-CLI-0237,France,Tolouse
-CLI-0239,France,Nice
-CLI-0240,France,Marselha
-CLI-0244,France,Nice
-CLI-0249,France,Nice
-CLI-0250,France,Marselha
-CLI-0261,France,Tolouse
-CLI-0262,France,Tolouse
-CLI-0267,France,Tolouse
-CLI-0268,France,Nice
-CLI-0274,France,Paris
-CLI-0277,France,Lyon
-CLI-0281,France,Paris
-CLI-0299,France,Marselha
-CLI-0300,France,Marselha
-CLI-0311,France,Marselha
-CLI-0315,France,Tolouse
-CLI-0318,France,Lyon
-CLI-0326,France,Lyon
-CLI-0327,France,Marselha
-CLI-0338,France,Marselha
-CLI-0340,France,Nice
-CLI-0341,France,Tolouse
-CLI-0344,France,Nice
-CLI-0355,France,Paris
-CLI-0367,France,Lyon
-CLI-0377,France,Paris
-CLI-0379,France,Lyon
-CLI-0380,France,Tolouse
-CLI-0383,France,Marselha
-CLI-0384,France,Nice
-CLI-0385,France,Nice
-CLI-0388,France,Paris
-CLI-0396,France,Lyon
-CLI-0400,France,Lyon
-CLI-0401,France,Tolouse
-CLI-0402,France,Nice
-CLI-0418,France,Marselha
-CLI-0421,France,Paris
-CLI-0429,France,Nice
-CLI-0433,France,Nice
-CLI-0434,France,Nice
-CLI-0440,France,Paris
-CLI-0441,France,Tolouse
-CLI-0448,France,Paris
-CLI-0455,France,Tolouse
-CLI-0463,France,Paris
-CLI-0470,France,Tolouse
-CLI-0481,France,Nice
-CLI-0482,France,Tolouse
-CLI-0484,France,Lyon
-CLI-0485,France,Marselha
-CLI-0500,France,Paris
-CLI-0503,France,Nice
-CLI-0505,France,Marselha
-CLI-0506,France,Nice
-CLI-0510,France,Paris
-CLI-0514,France,Nice
-CLI-0515,France,Paris
-CLI-0537,France,Marselha
-CLI-0539,France,Marselha
-CLI-0553,France,Paris
-CLI-0557,France,Tolouse
-CLI-0573,France,Paris
-CLI-0580,France,Nice
-CLI-0581,France,Paris
-CLI-0582,France,Lyon
-CLI-0583,France,Paris
-CLI-0592,France,Nice
-CLI-0594,France,Lyon
-CLI-0597,France,Paris
-CLI-0600,France,Tolouse
-CLI-0605,France,Lyon
-CLI-0609,France,Lyon
-CLI-0612,France,Marselha
-CLI-0615,France,Tolouse
-CLI-0616,France,Lyon
-CLI-0617,France,Nice
-CLI-0620,France,Marselha
-CLI-0628,France,Paris
-CLI-0629,France,Tolouse
-CLI-0630,France,Lyon
-CLI-0642,France,Paris
-CLI-0659,France,Paris
-CLI-0665,France,Lyon
-CLI-0668,France,Tolouse
-CLI-0677,France,Marselha
-CLI-0693,France,Paris
-CLI-0694,France,Tolouse
-CLI-0695,France,Tolouse
-CLI-0706,France,Nice
-CLI-0708,France,Paris
-CLI-0710,France,Nice
-CLI-0718,France,Paris
-CLI-0727,France,Marselha
-CLI-0732,France,Tolouse
-CLI-0740,France,Nice
-CLI-0741,France,Tolouse
-CLI-0743,France,Tolouse
-CLI-0749,France,Tolouse
-CLI-0751,France,Tolouse
-CLI-0752,France,Paris
-CLI-0759,France,Marselha
-CLI-0769,France,Lyon
-CLI-0773,France,Lyon
-CLI-0779,France,Tolouse
-CLI-0788,France,Marselha
-CLI-0795,France,Marselha
-CLI-0809,France,Marselha
-CLI-0812,France,Tolouse
-CLI-0818,France,Nice
-CLI-0826,France,Marselha
-CLI-0827,France,Marselha
-CLI-0829,France,Nice
-CLI-0831,France,Lyon
-CLI-0832,France,Lyon
-CLI-0835,France,Marselha
-CLI-0839,France,Paris
-CLI-0840,France,Tolouse
-CLI-0848,France,Lyon
-CLI-0851,France,Marselha
-CLI-0859,France,Marselha
-CLI-0876,France,Marselha
-CLI-0889,France,Tolouse
-CLI-0895,France,Tolouse
-CLI-0896,France,Marselha
-CLI-0899,France,Nice
-CLI-0903,France,Marselha
-CLI-0907,France,Tolouse
-CLI-0913,France,Tolouse
-CLI-0919,France,Tolouse
-CLI-0924,France,Lyon
-CLI-0926,France,Lyon
-CLI-0927,France,Paris
-CLI-0929,France,Lyon
-CLI-0930,France,Marselha
-CLI-0933,France,Marselha
-CLI-0937,France,Tolouse
-CLI-0938,France,Marselha
-CLI-0939,France,Paris
-CLI-0947,France,Paris
-CLI-0955,France,Lyon
-CLI-0956,France,Nice
-CLI-0025,Japan,Saitama
-CLI-0028,Japan,Kyoto
-CLI-0038,Japan,Tokyo
-CLI-0045,Japan,Saitama
-CLI-0054,Japan,Tokyo
-CLI-0062,Japan,Tokyo
-CLI-0066,Japan,Yokohama
-CLI-0073,Japan,Saitama
-CLI-0077,Japan,Yokohama
-CLI-0101,Japan,Kyoto
-CLI-0102,Japan,Osaka
-CLI-0109,Japan,Saitama
-CLI-0110,Japan,Tokyo
-CLI-0121,Japan,Kyoto
-CLI-0140,Japan,Tokyo
-CLI-0157,Japan,Kyoto
-CLI-0164,Japan,Yokohama
-CLI-0167,Japan,Yokohama
-CLI-0172,Japan,Yokohama
-CLI-0177,Japan,Kyoto
-CLI-0178,Japan,Saitama
-CLI-0185,Japan,Saitama
-CLI-0195,Japan,Osaka
-CLI-0198,Japan,Saitama
-CLI-0199,Japan,Saitama
-CLI-0216,Japan,Osaka
-CLI-0220,Japan,Tokyo
-CLI-0221,Japan,Yokohama
-CLI-0234,Japan,Kyoto
-CLI-0235,Japan,Osaka
-CLI-0238,Japan,Yokohama
-CLI-0243,Japan,Osaka
-CLI-0248,Japan,Kyoto
-CLI-0257,Japan,Kyoto
-CLI-0278,Japan,Saitama
-CLI-0290,Japan,Tokyo
-CLI-0309,Japan,Yokohama
-CLI-0316,Japan,Osaka
-CLI-0331,Japan,Yokohama
-CLI-0337,Japan,Tokyo
-CLI-0343,Japan,Saitama
-CLI-0350,Japan,Kyoto
-CLI-0353,Japan,Osaka
-CLI-0356,Japan,Yokohama
-CLI-0358,Japan,Yokohama
-CLI-0363,Japan,Kyoto
-CLI-0371,Japan,Osaka
-CLI-0392,Japan,Tokyo
-CLI-0403,Japan,Saitama
-CLI-0404,Japan,Osaka
-CLI-0407,Japan,Tokyo
-CLI-0408,Japan,Kyoto
-CLI-0412,Japan,Saitama
-CLI-0413,Japan,Kyoto
-CLI-0414,Japan,Tokyo
-CLI-0417,Japan,Tokyo
-CLI-0430,Japan,Yokohama
-CLI-0438,Japan,Yokohama
-CLI-0442,Japan,Yokohama
-CLI-0449,Japan,Osaka
-CLI-0457,Japan,Tokyo
-CLI-0461,Japan,Yokohama
-CLI-0471,Japan,Saitama
-CLI-0488,Japan,Kyoto
-CLI-0494,Japan,Saitama
-CLI-0508,Japan,Kyoto
-CLI-0520,Japan,Osaka
-CLI-0538,Japan,Yokohama
-CLI-0546,Japan,Yokohama
-CLI-0552,Japan,Osaka
-CLI-0554,Japan,Osaka
-CLI-0558,Japan,Saitama
-CLI-0559,Japan,Saitama
-CLI-0560,Japan,Kyoto
-CLI-0574,Japan,Tokyo
-CLI-0587,Japan,Kyoto
-CLI-0591,Japan,Kyoto
-CLI-0593,Japan,Tokyo
-CLI-0610,Japan,Osaka
-CLI-0613,Japan,Tokyo
-CLI-0624,Japan,Osaka
-CLI-0640,Japan,Osaka
-CLI-0644,Japan,Saitama
-CLI-0647,Japan,Saitama
-CLI-0649,Japan,Saitama
-CLI-0653,Japan,Kyoto
-CLI-0662,Japan,Saitama
-CLI-0667,Japan,Osaka
-CLI-0672,Japan,Kyoto
-CLI-0675,Japan,Yokohama
-CLI-0678,Japan,Osaka
-CLI-0684,Japan,Yokohama
-CLI-0690,Japan,Tokyo
-CLI-0728,Japan,Saitama
-CLI-0750,Japan,Tokyo
-CLI-0768,Japan,Osaka
-CLI-0783,Japan,Tokyo
-CLI-0791,Japan,Kyoto
-CLI-0792,Japan,Osaka
-CLI-0796,Japan,Yokohama
-CLI-0797,Japan,Tokyo
-CLI-0798,Japan,Tokyo
-CLI-0799,Japan,Osaka
-CLI-0801,Japan,Saitama
-CLI-0803,Japan,Kyoto
-CLI-0805,Japan,Yokohama
-CLI-0808,Japan,Kyoto
-CLI-0819,Japan,Osaka
-CLI-0824,Japan,Yokohama
-CLI-0852,Japan,Tokyo
-CLI-0853,Japan,Osaka
-CLI-0855,Japan,Osaka
-CLI-0864,Japan,Kyoto
-CLI-0869,Japan,Yokohama
-CLI-0872,Japan,Yokohama
-CLI-0880,Japan,Yokohama
-CLI-0883,Japan,Tokyo
-CLI-0901,Japan,Saitama
-CLI-0911,Japan,Osaka
-CLI-0917,Japan,Yokohama
-CLI-0920,Japan,Osaka
-CLI-0923,Japan,Saitama
-CLI-0944,Japan,Kyoto
-CLI-0946,Japan,Kyoto
-CLI-0949,Japan,Kyoto
-CLI-0001,United States,California
-CLI-0007,United States,California
-CLI-0012,United States,Ohio
-CLI-0013,United States,Florida
-CLI-0039,United States,Ohio
-CLI-0040,United States,Ohio
-CLI-0041,United States,Washington
-CLI-0061,United States,Oklahoma
-CLI-0063,United States,Florida
-CLI-0089,United States,Oklahoma
-CLI-0095,United States,Ohio
-CLI-0098,United States,Florida
-CLI-0103,United States,Florida
-CLI-0107,United States,Oklahoma
-CLI-0111,United States,Oklahoma
-CLI-0128,United States,Ohio
-CLI-0131,United States,Florida
-CLI-0135,United States,Washington
-CLI-0143,United States,Washington
-CLI-0146,United States,Oklahoma
-CLI-0151,United States,Ohio
+CLI-0155,France,Nice
 CLI-0156,United States,California
-CLI-0161,United States,Florida
-CLI-0163,United States,Florida
-CLI-0193,United States,Ohio
-CLI-0205,United States,California
-CLI-0209,United States,Ohio
-CLI-0210,United States,Florida
-CLI-0213,United States,Washington
-CLI-0214,United States,Washington
-CLI-0215,United States,Florida
-CLI-0218,United States,Florida
-CLI-0233,United States,California
-CLI-0256,United States,Florida
-CLI-0279,United States,Washington
-CLI-0286,United States,Oklahoma
-CLI-0289,United States,Florida
-CLI-0291,United States,Florida
-CLI-0292,United States,California
-CLI-0293,United States,Oklahoma
-CLI-0303,United States,Oklahoma
-CLI-0332,United States,Oklahoma
-CLI-0342,United States,Florida
-CLI-0348,United States,Florida
-CLI-0375,United States,California
-CLI-0386,United States,Washington
-CLI-0389,United States,California
-CLI-0395,United States,Oklahoma
-CLI-0397,United States,California
-CLI-0399,United States,Florida
-CLI-0406,United States,Washington
-CLI-0409,United States,California
-CLI-0423,United States,Florida
-CLI-0447,United States,California
-CLI-0450,United States,Washington
-CLI-0456,United States,Florida
+CLI-0157,France,Marselha
+CLI-0158,Brazil,Bahia
+CLI-0159,Brazil,Espirito Santo
+CLI-0160,United States,Oklahoma
+CLI-0161,Japan,Kyoto
+CLI-0162,Brazil,Santa Catarina
+CLI-0163,Brazil,Espirito Santo
+CLI-0164,Argentina,Tucumán
+CLI-0165,France,Nice
+CLI-0166,Brazil,Bahia
+CLI-0167,United States,Washington
+CLI-0168,China,Hubei
+CLI-0169,Brazil,Santa Catarina
+CLI-0170,Brazil,São Paulo
+CLI-0171,China,Sichuan
+CLI-0172,France,Lyon
+CLI-0173,France,Lyon
+CLI-0174,China,Xangai
+CLI-0175,Japan,Kyoto
+CLI-0176,Argentina,Córdova
+CLI-0177,United States,Florida
+CLI-0178,United States,Ohio
+CLI-0179,Argentina,Chaco
+CLI-0180,Argentina,Chaco
+CLI-0181,Japan,Yokohama
+CLI-0182,France,Tolouse
+CLI-0183,Brazil,São Paulo
+CLI-0184,United States,California
+CLI-0185,Brazil,Goiás
+CLI-0186,France,Nice
+CLI-0187,France,Lyon
+CLI-0188,France,Tolouse
+CLI-0189,Japan,Yokohama
+CLI-0190,France,Tolouse
+CLI-0191,Brazil,São Paulo
+CLI-0192,France,Nice
+CLI-0193,China,Shandong
+CLI-0194,Brazil,Rio Grande do Norte
+CLI-0195,Japan,Yokohama
+CLI-0196,Argentina,Buenos Aires
+CLI-0197,France,Marselha
+CLI-0198,China,Hubei
+CLI-0199,Brazil,Santa Catarina
+CLI-0200,Japan,Tokyo
+CLI-0201,China,Sichuan
+CLI-0202,Argentina,Chaco
+CLI-0203,China,Hubei
+CLI-0204,United States,Oklahoma
+CLI-0205,Argentina,Buenos Aires
+CLI-0206,Japan,Saitama
+CLI-0207,China,Pequim
+CLI-0208,Brazil,Pará
+CLI-0209,China,Hubei
+CLI-0210,China,Sichuan
+CLI-0211,Brazil,Pernambuco
+CLI-0212,United States,Ohio
+CLI-0213,Brazil,Santa Catarina
+CLI-0214,France,Lyon
+CLI-0215,Japan,Kyoto
+CLI-0216,United States,Oklahoma
+CLI-0217,United States,Oklahoma
+CLI-0218,France,Tolouse
+CLI-0219,Argentina,Chaco
+CLI-0220,China,Sichuan
+CLI-0221,Brazil,Minas Gerais
+CLI-0222,Brazil,Rio Grande do Norte
+CLI-0223,China,Sichuan
+CLI-0224,Japan,Yokohama
+CLI-0225,Brazil,Rio de Janeiro
+CLI-0226,France,Lyon
+CLI-0227,Japan,Yokohama
+CLI-0228,Brazil,Maranhão
+CLI-0229,United States,Ohio
+CLI-0230,Brazil,Rio Grande do Sul
+CLI-0231,Brazil,Rio Grande do Sul
+CLI-0232,Brazil,Bahia
+CLI-0233,Brazil,São Paulo
+CLI-0234,France,Tolouse
+CLI-0235,France,Nice
+CLI-0236,Brazil,Rio Grande do Sul
+CLI-0237,Argentina,Córdova
+CLI-0238,Brazil,São Paulo
+CLI-0239,United States,Florida
+CLI-0240,Argentina,Mendonza
+CLI-0241,China,Sichuan
+CLI-0242,Japan,Kyoto
+CLI-0243,Japan,Saitama
+CLI-0244,United States,Ohio
+CLI-0245,Japan,Tokyo
+CLI-0246,China,Xangai
+CLI-0247,United States,Ohio
+CLI-0248,Japan,Yokohama
+CLI-0249,France,Lyon
+CLI-0250,France,Nice
+CLI-0251,Japan,Yokohama
+CLI-0252,Argentina,Chaco
+CLI-0253,Argentina,Mendonza
+CLI-0254,China,Sichuan
+CLI-0255,Brazil,Pernambuco
+CLI-0256,France,Lyon
+CLI-0257,France,Lyon
+CLI-0258,Japan,Kyoto
+CLI-0259,Brazil,Rio de Janeiro
+CLI-0260,United States,Ohio
+CLI-0261,China,Pequim
+CLI-0262,China,Shandong
+CLI-0263,Brazil,Rio Grande do Sul
+CLI-0264,Argentina,Buenos Aires
+CLI-0265,China,Shandong
+CLI-0266,China,Sichuan
+CLI-0267,China,Shandong
+CLI-0268,France,Marselha
+CLI-0269,Brazil,Rio Grande do Norte
+CLI-0270,France,Paris
+CLI-0271,Brazil,Pernambuco
+CLI-0272,China,Sichuan
+CLI-0273,United States,Ohio
+CLI-0274,Brazil,Minas Gerais
+CLI-0275,Brazil,São Paulo
+CLI-0276,Japan,Osaka
+CLI-0277,Brazil,São Paulo
+CLI-0278,Argentina,Mendonza
+CLI-0279,China,Xangai
+CLI-0280,France,Marselha
+CLI-0281,China,Pequim
+CLI-0282,Brazil,São Paulo
+CLI-0283,Argentina,Chaco
+CLI-0284,France,Tolouse
+CLI-0285,Argentina,Córdova
+CLI-0286,China,Pequim
+CLI-0287,Brazil,Maranhão
+CLI-0288,United States,Florida
+CLI-0289,Japan,Osaka
+CLI-0290,Brazil,Minas Gerais
+CLI-0291,Japan,Kyoto
+CLI-0292,Brazil,Rio de Janeiro
+CLI-0293,China,Hubei
+CLI-0294,France,Marselha
+CLI-0295,Japan,Tokyo
+CLI-0296,France,Marselha
+CLI-0297,United States,Oklahoma
+CLI-0298,Brazil,Santa Catarina
+CLI-0299,France,Paris
+CLI-0300,United States,Florida
+CLI-0301,Japan,Osaka
+CLI-0302,Japan,Saitama
+CLI-0303,France,Nice
+CLI-0304,China,Hubei
+CLI-0305,China,Shandong
+CLI-0306,France,Lyon
+CLI-0307,United States,California
+CLI-0308,France,Marselha
+CLI-0309,Brazil,Rio Grande do Norte
+CLI-0310,France,Marselha
+CLI-0311,Japan,Tokyo
+CLI-0312,Japan,Saitama
+CLI-0313,Brazil,Rio de Janeiro
+CLI-0314,France,Lyon
+CLI-0315,France,Tolouse
+CLI-0316,United States,Florida
+CLI-0317,Argentina,Tucumán
+CLI-0318,France,Tolouse
+CLI-0319,Brazil,Santa Catarina
+CLI-0320,United States,Ohio
+CLI-0321,United States,Washington
+CLI-0322,Argentina,Mendonza
+CLI-0323,France,Marselha
+CLI-0324,Brazil,São Paulo
+CLI-0325,Brazil,Minas Gerais
+CLI-0326,United States,Oklahoma
+CLI-0327,France,Marselha
+CLI-0328,Japan,Osaka
+CLI-0329,Brazil,São Paulo
+CLI-0330,China,Sichuan
+CLI-0331,France,Nice
+CLI-0332,Brazil,Espirito Santo
+CLI-0333,Argentina,Córdova
+CLI-0334,Brazil,Bahia
+CLI-0335,United States,Oklahoma
+CLI-0336,Brazil,Pernambuco
+CLI-0337,Japan,Tokyo
+CLI-0338,Argentina,Mendonza
+CLI-0339,France,Tolouse
+CLI-0340,France,Nice
+CLI-0341,Japan,Yokohama
+CLI-0342,China,Shandong
+CLI-0343,France,Tolouse
+CLI-0344,France,Lyon
+CLI-0345,United States,Oklahoma
+CLI-0346,Japan,Tokyo
+CLI-0347,Brazil,Minas Gerais
+CLI-0348,China,Hubei
+CLI-0349,France,Tolouse
+CLI-0350,Argentina,Buenos Aires
+CLI-0351,France,Nice
+CLI-0352,Japan,Kyoto
+CLI-0353,China,Pequim
+CLI-0354,China,Xangai
+CLI-0355,Japan,Saitama
+CLI-0356,United States,Washington
+CLI-0357,China,Sichuan
+CLI-0358,United States,California
+CLI-0359,Japan,Tokyo
+CLI-0360,Brazil,Goiás
+CLI-0361,China,Xangai
+CLI-0362,Brazil,Rio Grande do Sul
+CLI-0363,France,Lyon
+CLI-0364,China,Shandong
+CLI-0365,Brazil,Amazonas
+CLI-0366,Brazil,Rio de Janeiro
+CLI-0367,France,Nice
+CLI-0368,France,Nice
+CLI-0369,Argentina,Chaco
+CLI-0370,Brazil,São Paulo
+CLI-0371,Brazil,Santa Catarina
+CLI-0372,China,Shandong
+CLI-0373,Brazil,São Paulo
+CLI-0374,China,Hubei
+CLI-0375,Brazil,Bahia
+CLI-0376,Japan,Yokohama
+CLI-0377,United States,Florida
+CLI-0378,Brazil,Pernambuco
+CLI-0379,China,Sichuan
+CLI-0380,Argentina,Mendonza
+CLI-0381,Brazil,São Paulo
+CLI-0382,Brazil,Maranhão
+CLI-0383,China,Shandong
+CLI-0384,Brazil,São Paulo
+CLI-0385,United States,California
+CLI-0386,China,Xangai
+CLI-0387,France,Marselha
+CLI-0388,China,Shandong
+CLI-0389,Argentina,Chaco
+CLI-0390,China,Pequim
+CLI-0391,China,Hubei
+CLI-0392,Japan,Kyoto
+CLI-0393,Brazil,São Paulo
+CLI-0394,United States,Florida
+CLI-0395,Brazil,Goiás
+CLI-0396,Brazil,Espirito Santo
+CLI-0397,Japan,Tokyo
+CLI-0398,Argentina,Chaco
+CLI-0399,Japan,Saitama
+CLI-0400,France,Nice
+CLI-0401,China,Pequim
+CLI-0402,Brazil,Rio de Janeiro
+CLI-0403,Japan,Saitama
+CLI-0404,United States,Washington
+CLI-0405,China,Xangai
+CLI-0406,Brazil,Goiás
+CLI-0407,France,Marselha
+CLI-0408,France,Marselha
+CLI-0409,China,Hubei
+CLI-0410,United States,Ohio
+CLI-0411,China,Shandong
+CLI-0412,China,Xangai
+CLI-0413,United States,Florida
+CLI-0414,Brazil,São Paulo
+CLI-0415,Brazil,Rio Grande do Sul
+CLI-0416,Brazil,São Paulo
+CLI-0417,Brazil,Santa Catarina
+CLI-0418,Argentina,Chaco
+CLI-0419,China,Hubei
+CLI-0420,China,Pequim
+CLI-0421,Japan,Osaka
+CLI-0422,Argentina,Tucumán
+CLI-0423,Japan,Osaka
+CLI-0424,France,Paris
+CLI-0425,Japan,Saitama
+CLI-0426,Argentina,Chaco
+CLI-0427,China,Hubei
+CLI-0428,Argentina,Buenos Aires
+CLI-0429,France,Tolouse
+CLI-0430,France,Nice
+CLI-0431,Argentina,Chaco
+CLI-0432,China,Sichuan
+CLI-0433,Japan,Kyoto
+CLI-0434,France,Nice
+CLI-0435,Brazil,Minas Gerais
+CLI-0436,China,Xangai
+CLI-0437,United States,Florida
+CLI-0438,Japan,Kyoto
+CLI-0439,Argentina,Córdova
+CLI-0440,Japan,Tokyo
+CLI-0441,France,Lyon
+CLI-0442,France,Marselha
+CLI-0443,Brazil,São Paulo
+CLI-0444,China,Hubei
+CLI-0445,Brazil,Rio Grande do Norte
+CLI-0446,United States,Washington
+CLI-0447,France,Nice
+CLI-0448,France,Tolouse
+CLI-0449,China,Pequim
+CLI-0450,Brazil,São Paulo
+CLI-0451,France,Marselha
+CLI-0452,Brazil,Rio Grande do Norte
+CLI-0453,Brazil,Bahia
+CLI-0454,Japan,Yokohama
+CLI-0455,United States,Florida
+CLI-0456,Brazil,Rio Grande do Sul
+CLI-0457,France,Marselha
+CLI-0458,France,Lyon
+CLI-0459,Brazil,São Paulo
+CLI-0460,Brazil,São Paulo
+CLI-0461,China,Sichuan
+CLI-0462,France,Paris
+CLI-0463,Brazil,São Paulo
+CLI-0464,Japan,Saitama
+CLI-0465,China,Shandong
 CLI-0466,United States,California
-CLI-0496,United States,Ohio
-CLI-0499,United States,California
-CLI-0507,United States,Florida
-CLI-0509,United States,Ohio
-CLI-0519,United States,California
-CLI-0522,United States,California
-CLI-0523,United States,Ohio
-CLI-0528,United States,California
-CLI-0531,United States,Florida
-CLI-0540,United States,Ohio
-CLI-0543,United States,Ohio
-CLI-0544,United States,California
-CLI-0547,United States,Oklahoma
-CLI-0551,United States,Florida
-CLI-0563,United States,California
-CLI-0567,United States,California
-CLI-0569,United States,Ohio
-CLI-0576,United States,Oklahoma
-CLI-0577,United States,Oklahoma
-CLI-0588,United States,Ohio
-CLI-0595,United States,Washington
-CLI-0596,United States,Florida
-CLI-0607,United States,Oklahoma
+CLI-0467,United States,California
+CLI-0468,Argentina,Tucumán
+CLI-0469,China,Hubei
+CLI-0470,Argentina,Mendonza
+CLI-0471,China,Sichuan
+CLI-0472,Brazil,Pernambuco
+CLI-0473,China,Shandong
+CLI-0474,United States,Ohio
+CLI-0475,China,Pequim
+CLI-0476,Brazil,Pernambuco
+CLI-0477,Argentina,Buenos Aires
+CLI-0478,United States,Ohio
+CLI-0479,Brazil,São Paulo
+CLI-0480,France,Lyon
+CLI-0481,Brazil,Rio de Janeiro
+CLI-0482,United States,Florida
+CLI-0483,Brazil,Pernambuco
+CLI-0484,Japan,Osaka
+CLI-0485,United States,Florida
+CLI-0486,China,Sichuan
+CLI-0487,France,Paris
+CLI-0488,China,Xangai
+CLI-0489,Brazil,Pernambuco
+CLI-0490,France,Nice
+CLI-0491,France,Tolouse
+CLI-0492,France,Nice
+CLI-0493,Brazil,Goiás
+CLI-0494,China,Pequim
+CLI-0495,China,Hubei
+CLI-0496,Japan,Kyoto
+CLI-0497,Argentina,Mendonza
+CLI-0498,Argentina,Mendonza
+CLI-0499,China,Xangai
+CLI-0500,France,Nice
+CLI-0501,Brazil,Amazonas
+CLI-0502,Brazil,Goiás
+CLI-0503,Argentina,Chaco
+CLI-0504,Brazil,Pará
+CLI-0505,China,Pequim
+CLI-0506,United States,California
+CLI-0507,Argentina,Tucumán
+CLI-0508,Japan,Kyoto
+CLI-0509,Japan,Osaka
+CLI-0510,Japan,Yokohama
+CLI-0511,Brazil,Rio de Janeiro
+CLI-0512,China,Xangai
+CLI-0513,Brazil,São Paulo
+CLI-0514,China,Hubei
+CLI-0515,China,Sichuan
+CLI-0516,China,Sichuan
+CLI-0517,Brazil,Rio de Janeiro
+CLI-0518,France,Lyon
+CLI-0519,Argentina,Córdova
+CLI-0520,Brazil,Rio de Janeiro
+CLI-0521,Brazil,Rio de Janeiro
+CLI-0522,Japan,Tokyo
+CLI-0523,United States,Oklahoma
+CLI-0524,Argentina,Chaco
+CLI-0525,Brazil,Santa Catarina
+CLI-0526,Argentina,Buenos Aires
+CLI-0527,China,Shandong
+CLI-0528,France,Nice
+CLI-0529,France,Nice
+CLI-0530,United States,Oklahoma
+CLI-0531,France,Nice
+CLI-0532,United States,California
+CLI-0533,Brazil,Bahia
+CLI-0534,China,Xangai
+CLI-0535,Brazil,Maranhão
+CLI-0536,France,Paris
+CLI-0537,France,Tolouse
+CLI-0538,Japan,Saitama
+CLI-0539,Japan,Osaka
+CLI-0540,China,Xangai
+CLI-0541,Japan,Osaka
+CLI-0542,Japan,Kyoto
+CLI-0543,Brazil,Rio Grande do Norte
+CLI-0544,United States,Florida
+CLI-0545,China,Hubei
+CLI-0546,France,Marselha
+CLI-0547,Argentina,Chaco
+CLI-0548,Brazil,São Paulo
+CLI-0549,Brazil,Espirito Santo
+CLI-0550,Argentina,Córdova
+CLI-0551,China,Shandong
+CLI-0552,Argentina,Mendonza
+CLI-0553,Brazil,Rio de Janeiro
+CLI-0554,United States,Washington
+CLI-0555,France,Paris
+CLI-0556,Brazil,Santa Catarina
+CLI-0557,France,Tolouse
+CLI-0558,Brazil,Bahia
+CLI-0559,Brazil,Bahia
+CLI-0560,Japan,Saitama
+CLI-0561,United States,Ohio
+CLI-0562,China,Sichuan
+CLI-0563,United States,Florida
+CLI-0564,Argentina,Córdova
+CLI-0565,France,Lyon
+CLI-0566,China,Sichuan
+CLI-0567,United States,Washington
+CLI-0568,Brazil,Rio Grande do Sul
+CLI-0569,France,Tolouse
+CLI-0570,United States,Washington
+CLI-0571,Brazil,São Paulo
+CLI-0572,France,Nice
+CLI-0573,United States,Florida
+CLI-0574,China,Hubei
+CLI-0575,China,Hubei
+CLI-0576,United States,California
+CLI-0577,Brazil,São Paulo
+CLI-0578,Argentina,Chaco
+CLI-0579,Brazil,Minas Gerais
+CLI-0580,Argentina,Córdova
+CLI-0581,France,Paris
+CLI-0582,China,Pequim
+CLI-0583,Japan,Kyoto
+CLI-0584,Brazil,Minas Gerais
+CLI-0585,Brazil,Minas Gerais
+CLI-0586,China,Sichuan
+CLI-0587,China,Sichuan
+CLI-0588,Japan,Saitama
+CLI-0589,France,Paris
+CLI-0590,United States,Oklahoma
+CLI-0591,United States,Florida
+CLI-0592,United States,California
+CLI-0593,United States,Florida
+CLI-0594,China,Hubei
+CLI-0595,France,Paris
+CLI-0596,United States,Ohio
+CLI-0597,France,Paris
+CLI-0598,Japan,Yokohama
+CLI-0599,United States,Washington
+CLI-0600,Argentina,Mendonza
+CLI-0601,Brazil,Goiás
+CLI-0602,United States,Oklahoma
+CLI-0603,United States,Oklahoma
+CLI-0604,Japan,Saitama
+CLI-0605,Japan,Saitama
+CLI-0606,Argentina,Buenos Aires
+CLI-0607,Brazil,Santa Catarina
+CLI-0608,France,Paris
+CLI-0609,Argentina,Tucumán
+CLI-0610,Brazil,Rio de Janeiro
+CLI-0611,France,Tolouse
+CLI-0612,France,Marselha
+CLI-0613,Brazil,Minas Gerais
+CLI-0614,Japan,Osaka
+CLI-0615,United States,Oklahoma
+CLI-0616,France,Paris
+CLI-0617,France,Tolouse
 CLI-0618,United States,Florida
-CLI-0621,United States,Florida
-CLI-0623,United States,Oklahoma
-CLI-0626,United States,Oklahoma
-CLI-0631,United States,Washington
-CLI-0638,United States,Ohio
-CLI-0643,United States,California
-CLI-0645,United States,Florida
-CLI-0648,United States,Ohio
-CLI-0655,United States,California
-CLI-0657,United States,Ohio
-CLI-0660,United States,Florida
-CLI-0676,United States,California
-CLI-0685,United States,Oklahoma
-CLI-0687,United States,Ohio
-CLI-0707,United States,Florida
-CLI-0716,United States,Washington
-CLI-0720,United States,California
-CLI-0729,United States,Oklahoma
-CLI-0731,United States,Ohio
-CLI-0738,United States,Florida
-CLI-0739,United States,California
-CLI-0742,United States,California
-CLI-0756,United States,Washington
-CLI-0760,United States,Florida
-CLI-0778,United States,Florida
-CLI-0780,United States,Washington
-CLI-0789,United States,California
-CLI-0815,United States,Washington
-CLI-0836,United States,Washington
-CLI-0845,United States,Oklahoma
-CLI-0849,United States,Florida
-CLI-0861,United States,California
-CLI-0863,United States,Oklahoma
-CLI-0865,United States,California
-CLI-0870,United States,Oklahoma
-CLI-0871,United States,Ohio
-CLI-0875,United States,Washington
-CLI-0877,United States,Oklahoma
-CLI-0879,United States,Florida
-CLI-0882,United States,Florida
-CLI-0890,United States,Washington
-CLI-0891,United States,California
-CLI-0892,United States,Florida
-CLI-0909,United States,Florida
-CLI-0925,United States,Florida
-CLI-0941,United States,Florida
+CLI-0619,Argentina,Buenos Aires
+CLI-0620,Argentina,Buenos Aires
+CLI-0621,France,Lyon
+CLI-0622,Japan,Saitama
+CLI-0623,France,Lyon
+CLI-0624,Brazil,Santa Catarina
+CLI-0625,Argentina,Chaco
+CLI-0626,Japan,Osaka
+CLI-0627,Brazil,Santa Catarina
+CLI-0628,Japan,Yokohama
+CLI-0629,Argentina,Córdova
+CLI-0630,Argentina,Córdova
+CLI-0631,United States,California
+CLI-0632,United States,California
+CLI-0633,China,Hubei
+CLI-0634,China,Pequim
+CLI-0635,Japan,Kyoto
+CLI-0636,France,Tolouse
+CLI-0637,China,Xangai
+CLI-0638,Brazil,Santa Catarina
+CLI-0639,Brazil,Rio de Janeiro
+CLI-0640,France,Nice
+CLI-0641,France,Lyon
+CLI-0642,Argentina,Tucumán
+CLI-0643,Argentina,Mendonza
+CLI-0644,China,Pequim
+CLI-0645,United States,California
+CLI-0646,Japan,Kyoto
+CLI-0647,France,Lyon
+CLI-0648,Brazil,Santa Catarina
+CLI-0649,Japan,Tokyo
+CLI-0650,Japan,Yokohama
+CLI-0651,Brazil,Rio de Janeiro
+CLI-0652,Brazil,São Paulo
+CLI-0653,United States,California
+CLI-0654,China,Pequim
+CLI-0655,Japan,Kyoto
+CLI-0656,France,Lyon
+CLI-0657,Argentina,Mendonza
+CLI-0658,Brazil,São Paulo
+CLI-0659,Argentina,Mendonza
+CLI-0660,China,Xangai
+CLI-0661,United States,Florida
+CLI-0662,Japan,Tokyo
+CLI-0663,Argentina,Tucumán
+CLI-0664,China,Hubei
+CLI-0665,United States,Ohio
+CLI-0666,Brazil,São Paulo
+CLI-0667,France,Tolouse
+CLI-0668,China,Xangai
+CLI-0669,Argentina,Mendonza
+CLI-0670,United States,Florida
+CLI-0671,United States,California
+CLI-0672,France,Nice
+CLI-0673,Japan,Yokohama
+CLI-0674,France,Lyon
+CLI-0675,Japan,Saitama
+CLI-0676,France,Tolouse
+CLI-0677,United States,California
+CLI-0678,Japan,Yokohama
+CLI-0679,France,Paris
+CLI-0680,Japan,Tokyo
+CLI-0681,France,Paris
+CLI-0682,China,Xangai
+CLI-0683,Japan,Kyoto
+CLI-0684,France,Paris
+CLI-0685,Japan,Osaka
+CLI-0686,Argentina,Chaco
+CLI-0687,France,Paris
+CLI-0688,Brazil,Pernambuco
+CLI-0689,China,Shandong
+CLI-0690,France,Paris
+CLI-0691,Argentina,Mendonza
+CLI-0692,China,Sichuan
+CLI-0693,United States,Oklahoma
+CLI-0694,Brazil,Santa Catarina
+CLI-0695,Japan,Osaka
+CLI-0696,Brazil,Rio Grande do Norte
+CLI-0697,France,Paris
+CLI-0698,Brazil,São Paulo
+CLI-0699,Japan,Tokyo
+CLI-0700,Japan,Yokohama
+CLI-0701,France,Marselha
+CLI-0702,Japan,Saitama
+CLI-0703,France,Tolouse
+CLI-0704,France,Nice
+CLI-0705,Brazil,Minas Gerais
+CLI-0706,Brazil,Minas Gerais
+CLI-0707,France,Nice
+CLI-0708,Brazil,Santa Catarina
+CLI-0709,China,Pequim
+CLI-0710,France,Marselha
+CLI-0711,Brazil,Minas Gerais
+CLI-0712,China,Shandong
+CLI-0713,Argentina,Mendonza
+CLI-0714,France,Tolouse
+CLI-0715,United States,Oklahoma
+CLI-0716,China,Pequim
+CLI-0717,Japan,Tokyo
+CLI-0718,China,Pequim
+CLI-0719,China,Sichuan
+CLI-0720,China,Shandong
+CLI-0721,Brazil,Espirito Santo
+CLI-0722,Japan,Yokohama
+CLI-0723,Argentina,Tucumán
+CLI-0724,Japan,Kyoto
+CLI-0725,France,Marselha
+CLI-0726,Japan,Saitama
+CLI-0727,Brazil,Rio Grande do Sul
+CLI-0728,Argentina,Buenos Aires
+CLI-0729,Brazil,Rio Grande do Sul
+CLI-0730,France,Nice
+CLI-0731,Brazil,Amazonas
+CLI-0732,Argentina,Córdova
+CLI-0733,United States,California
+CLI-0734,United States,Florida
+CLI-0735,United States,Ohio
+CLI-0736,United States,California
+CLI-0737,China,Hubei
+CLI-0738,France,Nice
+CLI-0739,France,Nice
+CLI-0740,Brazil,Minas Gerais
+CLI-0741,Brazil,Espirito Santo
+CLI-0742,Brazil,Pernambuco
+CLI-0743,Brazil,Bahia
+CLI-0744,Japan,Osaka
+CLI-0745,Argentina,Chaco
+CLI-0746,United States,Florida
+CLI-0747,France,Marselha
+CLI-0748,China,Pequim
+CLI-0749,Brazil,Rio de Janeiro
+CLI-0750,Brazil,Rio Grande do Norte
+CLI-0751,Brazil,Santa Catarina
+CLI-0752,Argentina,Córdova
+CLI-0753,China,Sichuan
+CLI-0754,France,Paris
+CLI-0755,China,Shandong
+CLI-0756,France,Lyon
+CLI-0757,France,Tolouse
+CLI-0758,France,Lyon
+CLI-0759,France,Marselha
+CLI-0760,China,Sichuan
+CLI-0761,Brazil,Rio de Janeiro
+CLI-0762,China,Xangai
+CLI-0763,Japan,Kyoto
+CLI-0764,United States,Washington
+CLI-0765,United States,Washington
+CLI-0766,Brazil,Santa Catarina
+CLI-0767,France,Nice
+CLI-0768,Japan,Osaka
+CLI-0769,France,Tolouse
+CLI-0770,Brazil,Espirito Santo
+CLI-0771,Argentina,Buenos Aires
+CLI-0772,United States,California
+CLI-0773,China,Hubei
+CLI-0774,Japan,Yokohama
+CLI-0775,China,Sichuan
+CLI-0776,France,Marselha
+CLI-0777,Brazil,Rio Grande do Sul
+CLI-0778,France,Tolouse
+CLI-0779,United States,Washington
+CLI-0780,United States,Oklahoma
+CLI-0781,Brazil,Pernambuco
+CLI-0782,France,Marselha
+CLI-0783,Brazil,São Paulo
+CLI-0784,Brazil,Minas Gerais
+CLI-0785,France,Tolouse
+CLI-0786,Brazil,Bahia
+CLI-0787,Brazil,Bahia
+CLI-0788,Argentina,Buenos Aires
+CLI-0789,Japan,Saitama
+CLI-0790,France,Paris
+CLI-0791,United States,Florida
+CLI-0792,Argentina,Córdova
+CLI-0793,Argentina,Córdova
+CLI-0794,United States,Oklahoma
+CLI-0795,Brazil,São Paulo
+CLI-0796,China,Pequim
+CLI-0797,Argentina,Buenos Aires
+CLI-0798,Argentina,Mendonza
+CLI-0799,Brazil,Maranhão
+CLI-0800,China,Hubei
+CLI-0801,Brazil,Espirito Santo
+CLI-0802,Brazil,Rio Grande do Sul
+CLI-0803,France,Tolouse
+CLI-0804,France,Paris
+CLI-0805,France,Tolouse
+CLI-0806,China,Pequim
+CLI-0807,Argentina,Mendonza
+CLI-0808,Argentina,Chaco
+CLI-0809,United States,California
+CLI-0810,Brazil,Rio de Janeiro
+CLI-0811,Brazil,Rio Grande do Norte
+CLI-0812,Japan,Saitama
+CLI-0813,France,Paris
+CLI-0814,Japan,Yokohama
+CLI-0815,Japan,Osaka
+CLI-0816,United States,Ohio
+CLI-0817,Brazil,Rio Grande do Norte
+CLI-0818,Brazil,Espirito Santo
+CLI-0819,Argentina,Tucumán
+CLI-0820,France,Nice
+CLI-0821,China,Hubei
+CLI-0822,China,Sichuan
+CLI-0823,France,Lyon
+CLI-0824,France,Tolouse
+CLI-0825,United States,Florida
+CLI-0826,France,Paris
+CLI-0827,China,Pequim
+CLI-0828,Brazil,Pernambuco
+CLI-0829,Japan,Tokyo
+CLI-0830,United States,Washington
+CLI-0831,France,Tolouse
+CLI-0832,Brazil,Rio Grande do Sul
+CLI-0833,China,Shandong
+CLI-0834,China,Hubei
+CLI-0835,China,Xangai
+CLI-0836,France,Paris
+CLI-0837,Brazil,Rio de Janeiro
+CLI-0838,Japan,Tokyo
+CLI-0839,Brazil,São Paulo
+CLI-0840,Japan,Kyoto
+CLI-0841,France,Tolouse
+CLI-0842,Brazil,Rio de Janeiro
+CLI-0843,Japan,Saitama
+CLI-0844,Brazil,Minas Gerais
+CLI-0845,Brazil,Bahia
+CLI-0846,United States,California
+CLI-0847,Brazil,Santa Catarina
+CLI-0848,France,Tolouse
+CLI-0849,Brazil,Minas Gerais
+CLI-0850,Brazil,Rio Grande do Sul
+CLI-0851,Brazil,Rio de Janeiro
+CLI-0852,United States,Florida
+CLI-0853,Brazil,São Paulo
+CLI-0854,United States,California
+CLI-0855,Brazil,Minas Gerais
+CLI-0856,United States,Ohio
+CLI-0857,China,Hubei
+CLI-0858,United States,Ohio
+CLI-0859,France,Marselha
+CLI-0860,Japan,Kyoto
+CLI-0861,China,Hubei
+CLI-0862,Brazil,São Paulo
+CLI-0863,France,Tolouse
+CLI-0864,Brazil,São Paulo
+CLI-0865,Brazil,Rio Grande do Sul
+CLI-0866,China,Hubei
+CLI-0867,Brazil,Pernambuco
+CLI-0868,Japan,Tokyo
+CLI-0869,Argentina,Chaco
+CLI-0870,United States,Florida
+CLI-0871,Japan,Yokohama
+CLI-0872,Brazil,Rio Grande do Sul
+CLI-0873,Japan,Osaka
+CLI-0874,United States,Oklahoma
+CLI-0875,Brazil,Pernambuco
+CLI-0876,United States,Washington
+CLI-0877,Argentina,Córdova
+CLI-0878,Japan,Yokohama
+CLI-0879,Japan,Tokyo
+CLI-0880,Argentina,Tucumán
+CLI-0881,China,Hubei
+CLI-0882,China,Sichuan
+CLI-0883,France,Tolouse
+CLI-0884,Argentina,Chaco
+CLI-0885,China,Pequim
+CLI-0886,France,Marselha
+CLI-0887,Brazil,Minas Gerais
+CLI-0888,China,Shandong
+CLI-0889,France,Marselha
+CLI-0890,China,Xangai
+CLI-0891,Brazil,Santa Catarina
+CLI-0892,United States,Ohio
+CLI-0893,China,Shandong
+CLI-0894,China,Hubei
+CLI-0895,China,Hubei
+CLI-0896,Japan,Kyoto
+CLI-0897,China,Xangai
+CLI-0898,France,Paris
+CLI-0899,United States,California
+CLI-0900,China,Hubei
+CLI-0901,Argentina,Córdova
+CLI-0902,France,Marselha
+CLI-0903,Brazil,Rio Grande do Sul
+CLI-0904,Brazil,Rio de Janeiro
+CLI-0905,Brazil,Rio de Janeiro
+CLI-0906,Brazil,São Paulo
+CLI-0907,Argentina,Chaco
+CLI-0908,China,Xangai
+CLI-0909,Argentina,Córdova
+CLI-0910,Argentina,Tucumán
+CLI-0911,Japan,Kyoto
+CLI-0912,Brazil,São Paulo
+CLI-0913,China,Xangai
+CLI-0914,China,Xangai
+CLI-0915,United States,Florida
+CLI-0916,France,Paris
+CLI-0917,France,Paris
+CLI-0918,Brazil,Rio Grande do Norte
+CLI-0919,Brazil,Rio Grande do Norte
+CLI-0920,France,Tolouse
+CLI-0921,China,Pequim
+CLI-0922,China,Xangai
+CLI-0923,China,Sichuan
+CLI-0924,China,Pequim
+CLI-0925,France,Tolouse
+CLI-0926,China,Sichuan
+CLI-0927,France,Lyon
+CLI-0928,United States,Florida
+CLI-0929,Brazil,Goiás
+CLI-0930,China,Shandong
+CLI-0931,Argentina,Buenos Aires
+CLI-0932,Brazil,Amazonas
+CLI-0933,France,Tolouse
+CLI-0934,Brazil,Bahia
+CLI-0935,United States,Ohio
+CLI-0936,Brazil,São Paulo
+CLI-0937,China,Xangai
+CLI-0938,Argentina,Tucumán
+CLI-0939,Japan,Osaka
+CLI-0940,Brazil,Rio Grande do Norte
+CLI-0941,France,Paris
+CLI-0942,Brazil,Maranhão
+CLI-0943,Japan,Osaka
+CLI-0944,China,Shandong
+CLI-0945,China,Shandong
+CLI-0946,China,Shandong
+CLI-0947,Argentina,Tucumán
+CLI-0948,France,Marselha
+CLI-0949,United States,California
+CLI-0950,Japan,Osaka
+CLI-0951,Brazil,Rio de Janeiro
+CLI-0952,France,Marselha
+CLI-0953,China,Pequim
+CLI-0954,Japan,Tokyo
+CLI-0955,Brazil,Bahia
+CLI-0956,Japan,Tokyo
