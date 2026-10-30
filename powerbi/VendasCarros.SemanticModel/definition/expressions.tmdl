@@ -1,0 +1,5 @@
+expression PastaDados = "C:\Users\Breno\Desktop\Projects\SANTANDER\RAG-DIO\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 74b112ff-d028-4ade-85a6-09c5b4a9cbee
+
+	annotation PBI_ResultType = Text
+

@@ -1,0 +1,81 @@
+table vendas
+	lineageTag: 98de7ce9-a343-4a39-8eb8-3f88f2978bdc
+
+	/// Soma dos preços de venda.
+	measure Faturamento = SUM(vendas[preco])
+		formatString: #,0.00
+		lineageTag: 12bda947-22b3-4921-bda3-4d2acd702dd6
+
+	/// Número de vendas.
+	measure 'Quantidade de vendas' = COUNTROWS(vendas)
+		formatString: #,0
+		lineageTag: e3330375-9d9a-43a5-9d9a-ccde31c193d8
+
+	/// Faturamento dividido pela quantidade de vendas.
+	measure 'Ticket médio' = DIVIDE([Faturamento], [Quantidade de vendas])
+		formatString: #,0.00
+		lineageTag: 94292ddc-1555-464e-964f-d052925020d7
+
+	/// Marca com mais vendas no contexto filtrado.
+	measure 'Marca líder' =
+			VAR Lider = TOPN(1, VALUES(veiculos[marca]), [Quantidade de vendas], DESC)
+			RETURN CONCATENATEX(Lider, veiculos[marca], ", ")
+		lineageTag: 327bf274-4869-4b62-b87c-13c2de4a8ec6
+
+	/// Modelo com mais vendas no contexto filtrado.
+	measure 'Modelo líder' =
+			VAR Lider = TOPN(1, VALUES(veiculos[modelo]), [Quantidade de vendas], DESC)
+			RETURN CONCATENATEX(Lider, veiculos[modelo], ", ")
+		lineageTag: 1747413d-13c5-4f9f-ab19-86080d71ae5b
+
+	/// Participação no faturamento do contexto selecionado.
+	measure '% do faturamento' = DIVIDE([Faturamento], CALCULATE([Faturamento], ALLSELECTED()))
+		formatString: 0.0%
+		lineageTag: 11431d10-8a7c-46d1-9001-8112ed89efce
+
+	column sale_id
+		dataType: string
+		lineageTag: a24a0bcd-19c8-4b76-9103-a016060c3a53
+		summarizeBy: none
+		sourceColumn: sale_id
+
+	column vehicle_id
+		dataType: string
+		isHidden
+		lineageTag: 5195d9f7-7311-4456-91b5-52887870dc70
+		summarizeBy: none
+		sourceColumn: vehicle_id
+
+	column customer_id
+		dataType: string
+		isHidden
+		lineageTag: e44e83fc-331e-43c5-a74d-b96cd6bc347d
+		summarizeBy: none
+		sourceColumn: customer_id
+
+	column data_venda
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: bcde67f6-eb97-4420-95df-ee63bdf91218
+		summarizeBy: none
+		sourceColumn: data_venda
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column preco
+		dataType: double
+		formatString: #,0.00
+		lineageTag: b5e267e6-cd30-44b7-8b90-c23a8350a15f
+		summarizeBy: sum
+		sourceColumn: preco
+
+	partition vendas = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "vendas.csv"), [Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Cabecalhos = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalhos, {{"sale_id", type text}, {"vehicle_id", type text}, {"customer_id", type text}, {"data_venda", type date}, {"preco", type number}}, "en-US")
+				in
+				    Tipos
+
