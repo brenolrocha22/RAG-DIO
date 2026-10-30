@@ -127,6 +127,11 @@ def sale_records(sales: Iterable[Sale]) -> list[Record]:
                 "sale_id": sale.sale_id,
                 "vehicle_id": sale.vehicle_id,
                 "customer_id": sale.customer_id,
+                "marca": sale.marca,
+                "modelo": sale.modelo,
+                "pais": sale.pais,
+                "regiao": sale.regiao,
+                "ano": sale.ano,
             },
         )
         for sale in sales

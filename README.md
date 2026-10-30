@@ -60,6 +60,13 @@ Os resumos são **calculados de forma determinística em Python** (por marca, mo
 
 Um **retriever customizado** busca, em consultas separadas com filtro de metadados, os 3 resumos e as 5 vendas mais relevantes. Sem essa separação, as quase mil vendas individuais dominariam a busca e os resumos raramente apareceriam.
 
+Os resumos não cobrem tudo: *"quantos Honda Civic foram vendidos na França em 2016?"* exigiria um resumo para cada combinação de marca × modelo × país × ano (explosão combinatória). Para isso, os CSVs também são carregados em um **banco SQLite**, e o chatbot é um **agente com duas ferramentas**:
+
+| Ferramenta | Quando o agente usa |
+| --- | --- |
+| `consultar_sql` | Números exatos: contagens, somas, médias, rankings e filtros combinados. O LLM escreve o SQL; o banco faz a conta. |
+| `buscar_documentos` | Busca semântica nos resumos e vendas (RAG), com filtros opcionais de marca, país e ano. |
+
 ## 🏗️ Arquitetura
 
 ```mermaid
@@ -67,11 +74,13 @@ flowchart LR
     XLSX[(Planilha original<br/>com nomes)] -->|export_data.py<br/>anonimiza| CSV[(3 CSVs<br/>vendas · veículos · clientes)]
     CSV --> DOCS[documents.py<br/>985 vendas + 119 resumos]
     DOCS -->|FastEmbed<br/>multilíngue, local| CHROMA[(ChromaDB<br/>persistente)]
+    CSV --> DB[(SQLite<br/>somente leitura)]
     U[👤 Usuário] -->|pergunta| UI[Chainlit]
-    UI --> R{Retriever<br/>resumos + vendas}
+    UI --> AG{Agente<br/>LLM via OpenRouter}
+    AG -->|buscar_documentos| R[Retriever<br/>3 resumos + 5 vendas<br/>reranker opcional]
     CHROMA --> R
-    R -->|contexto| LLM[LLM via OpenRouter<br/>Llama 3.1 8B]
-    LLM -->|resposta + fontes| UI
+    AG -->|consultar_sql| DB
+    AG -->|resposta + fontes| UI
     XLSX --> PBI[📊 Power BI]
 ```
 
@@ -84,8 +93,9 @@ flowchart LR
 | Quantas vendas aconteceram em 2018? | Resumo do ano 2018 | 146 vendas, faturamento de 8.957.729,77 |
 | Quais modelos da Ferrari foram vendidos? | Resumo da marca Ferrari | Lista de modelos com quantidade e faturamento |
 | Qual foi a venda mais cara? | Resumo de preços | VEN-000610 — Ford Mustang, 79.980,00 (Brasil, 2017) |
+| Quantas Honda foram vendidas no Brasil em 2018? | Consulta SQL com filtros combinados | Contagem exata calculada pelo banco |
 
-Esses casos foram validados na etapa de recuperação: o documento correto aparece entre os 3 primeiros resultados para todas as perguntas acima.
+As cinco primeiras foram validadas na etapa de recuperação: o documento correto aparece entre os 3 primeiros resultados. A última depende do SQL, coberto pelos testes de `tests/test_database.py`.
 
 ## 🧠 Decisões técnicas
 
@@ -94,7 +104,10 @@ Esses casos foram validados na etapa de recuperação: o documento correto apare
 - **Títulos descritivos para o embedding.** O modelo de embeddings considera só o começo do texto (~128 tokens). Por isso, cada resumo começa dizendo que pergunta ele responde, por exemplo *"Responde qual marca mais vendeu…"*. Essa mudança corrigiu casos em que "qual marca mais vendeu?" recuperava o ranking de *modelos*.
 - **Reindexação automática.** O índice persistido no ChromaDB guarda um hash dos textos gerados e do modelo de embeddings. Se os CSVs ou o formato dos documentos mudam, o índice é recriado; caso contrário, é reutilizado e o app inicia em segundos.
 - **Embeddings locais e multilíngues** (FastEmbed + `paraphrase-multilingual-MiniLM-L12-v2`): sem custo por chamada e com bom desempenho em português.
-- **Transparência.** Toda resposta lista as fontes consultadas.
+- **Agente com SQL para o que os resumos não cobrem.** Resumos respondem rápido às perguntas previstas; filtros combinados vão para o SQL, onde a conta é exata. A conexão é aberta em **modo somente leitura**, aceita só `SELECT`, tem limite de tempo e devolve no máximo 50 linhas. Se o SQL der erro, a mensagem volta ao LLM, que corrige a consulta.
+- **Reranker opcional (cross-encoder).** O embedding (bi-encoder) compara vetores pré-calculados: é rápido, mas aproximado. O reranker lê pergunta e documento juntos e reordena os candidatos (10 resumos → 3, 20 vendas → 5). Medições em CPU: `bge-reranker-v2-m3-int8` levou ~60 s por pergunta; `ms-marco-MiniLM-L-12-v2`, ~3 s para 10 candidatos. Como os títulos descritivos já colocam o resumo certo no top-3, ele fica **desligado por padrão** (`RERANK_MODEL` no `.env` liga). Não tem custo de API, só latência e memória.
+- **Custo zero por padrão.** Embeddings, reranker e banco rodam localmente, e o LLM padrão é um modelo gratuito do OpenRouter (`google/gemma-4-31b-it:free`), com suporte a chamada de ferramentas. O plano gratuito tem limite diário de requisições, e o agente faz 2 a 3 chamadas por pergunta. Para uso contínuo, basta trocar `OPENROUTER_MODEL` por um modelo pago barato (por exemplo, `deepseek/deepseek-v4-flash`, cerca de US$ 0,80 por mil perguntas).
+- **Transparência.** Toda resposta lista as fontes consultadas, e o Chainlit mostra cada chamada de ferramenta (inclusive o SQL executado).
 - **Privacidade (LGPD).** A planilha original tem o nome dos clientes. O script de exportação descarta os nomes e gera IDs anônimos (`CLI-0001`…) numerados pela ordem da primeira compra, e não pela ordem alfabética, para não revelar nada sobre o nome. A planilha e o `.pbix` não são versionados.
 
 ## 🗂️ Estrutura
@@ -105,7 +118,8 @@ docs/img/                 imagens do README
 scripts/export_data.py    planilha .xlsx -> 3 CSVs anonimizados
 scripts/gerar_graficos.py gera docs/img/visao-geral-vendas.png
 src/documents.py          monta os textos de vendas e resumos (sem dependência de LLM)
-src/main.py               índice ChromaDB, retriever, prompt e app Chainlit
+src/database.py           CSVs -> SQLite e execução de SELECT somente leitura
+src/main.py               índice ChromaDB, retriever, reranker, agente e app Chainlit
 tests/                    testes dos dados e dos resumos
 ```
 
@@ -140,7 +154,7 @@ chainlit run src/main.py --host 127.0.0.1 --port 8001
 python -m unittest discover -s tests -v
 ```
 
-Os testes verificam a integridade dos CSVs (relacionamentos, ausência de nomes, formatos) e se os resumos batem com os totais da base (contagens, faturamento, rankings e preços).
+Os testes verificam a integridade dos CSVs (relacionamentos, ausência de nomes, formatos), se os resumos batem com os totais da base (contagens, faturamento, rankings e preços) e se o banco SQL reproduz os mesmos totais e bloqueia qualquer escrita.
 
 ### Regerar os dados a partir da planilha
 
@@ -152,8 +166,8 @@ A planilha precisa de uma aba `base` com as colunas ID, MARCA, MODELO, PREÇO, P
 
 ## ⚠️ Limitações e próximos passos
 
-- **Filtros combinados muito específicos** (*"vendas de Honda Civic na França em 2016"*) dependem da busca semântica e podem não recuperar todas as vendas. Próximo passo: extrair filtros da pergunta (marca, país, ano) e aplicá-los como filtros de metadados, ou usar busca híbrida (BM25 + vetorial).
-- **Perguntas analíticas livres** podem ser atendidas por um agente *text-to-SQL/pandas* combinado ao RAG, para cálculos que não estão nos resumos.
+- **K fixo.** A busca sempre devolve 3 resumos e 5 vendas, mesmo quando parte deles é ruído. Próximo passo: um limiar de similaridade (`similarity_cutoff`) ou de score do reranker.
+- **Text-to-SQL depende do LLM.** Um modelo pequeno pode escrever SQL errado; a validação reduz o risco (somente leitura, só `SELECT`), mas não garante a interpretação da pergunta.
 - **Avaliação automática** das respostas (por exemplo, com RAGAS ou o avaliador do LlamaIndex) usando um conjunto fixo de perguntas e respostas esperadas.
 - A base não define moeda, então os valores são apresentados sem símbolo monetário.
 
