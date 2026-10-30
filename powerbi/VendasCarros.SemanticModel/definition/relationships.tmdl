@@ -1,0 +1,12 @@
+relationship vendas_veiculos
+	fromColumn: vendas.vehicle_id
+	toColumn: veiculos.vehicle_id
+
+relationship vendas_clientes
+	fromColumn: vendas.customer_id
+	toColumn: clientes.customer_id
+
+relationship vendas_calendario
+	fromColumn: vendas.data_venda
+	toColumn: Calendario.Date
+

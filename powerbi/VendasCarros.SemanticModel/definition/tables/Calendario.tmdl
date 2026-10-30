@@ -1,0 +1,48 @@
+table Calendario
+	lineageTag: 75887d0c-66fa-4b80-8368-a811dc59a2c5
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: dd/mm/yyyy
+		lineageTag: 3b0c6a23-2425-4ae3-9899-68a70f9030d2
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+	column Ano
+		dataType: int64
+		formatString: 0
+		lineageTag: 0c66d5c7-373d-43e9-a003-9488cb370037
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Ano]
+
+	column Mes
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 70f68ddf-8af3-48a3-a9f1-0f76f427c14a
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mes]
+
+	column 'Nome do mês'
+		dataType: string
+		lineageTag: abb1722b-0bf3-4e15-b48f-9f7bd25e8883
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Nome do mês]
+		sortByColumn: Mes
+
+	partition Calendario = calculated
+		mode: import
+		source =
+				ADDCOLUMNS(
+				    CALENDAR(DATE(YEAR(MIN(vendas[data_venda])), 1, 1), DATE(YEAR(MAX(vendas[data_venda])), 12, 31)),
+				    "Ano", YEAR([Date]),
+				    "Mes", MONTH([Date]),
+				    "Nome do mês", FORMAT([Date], "mmm")
+				)
+

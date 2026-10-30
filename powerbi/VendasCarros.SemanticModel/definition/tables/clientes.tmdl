@@ -1,0 +1,32 @@
+table clientes
+	lineageTag: 6327a444-f005-47d0-9bde-ae2740e30c43
+
+	column customer_id
+		dataType: string
+		isHidden
+		lineageTag: 4b9a4334-40c4-4f25-a4eb-ca560ee719bd
+		summarizeBy: none
+		sourceColumn: customer_id
+
+	column pais
+		dataType: string
+		lineageTag: bf2ae905-5585-4a12-a9ea-cbb7dba931c6
+		summarizeBy: none
+		sourceColumn: pais
+
+	column regiao
+		dataType: string
+		lineageTag: 284c7b2e-c5dc-4c25-a69b-134b94760399
+		summarizeBy: none
+		sourceColumn: regiao
+
+	partition clientes = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "clientes.csv"), [Delimiter=",", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Cabecalhos = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalhos, {{"customer_id", type text}, {"pais", type text}, {"regiao", type text}}, "en-US")
+				in
+				    Tipos
+

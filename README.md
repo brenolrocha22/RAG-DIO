@@ -25,17 +25,20 @@ Chatbot que responde, em português, perguntas sobre uma base real de **985 vend
 
 ![Dashboard Power BI de vendas de carros](docs/img/powerbi-dashboard.png)
 
-O dashboard foi construído sobre a mesma planilha que alimenta o RAG e contém:
+O dashboard lê os **mesmos CSVs anonimizados** que alimentam o RAG e está versionado como projeto Power BI (PBIP) em [`powerbi/`](powerbi/): modelo em TMDL e relatório em PBIR, ambos em texto e revisáveis em pull request.
 
 | Visual | O que mostra |
 | --- | --- |
-| KPI | Soma de vendas do ano vs. **ano anterior** |
-| Segmentações | Filtro por **ano** e **mês** (tabela calendário) |
-| Barras + cascata | Vendas por **marca** |
-| Pizza | Participação de cada **país** nas vendas |
-| Treemap | Distribuição por marca |
-| Cartões | Marca e modelo em destaque |
-| Tooltip personalizado | Lista de modelos ao passar o mouse |
+| Segmentações | Filtro por **ano**, **país** e **marca** |
+| Cartões | Faturamento, quantidade de vendas, ticket médio, marca e modelo líderes (medidas DAX que respeitam os filtros) |
+| Colunas | Faturamento por **ano** (2020 vai só até junho) |
+| Barras | Faturamento por **marca** |
+| Rosca | Participação de cada **país** no faturamento |
+| Tabela | Modelos com vendas, faturamento, ticket médio e % do total; clicar em uma linha filtra o painel |
+
+**Modelo de dados:** estrela com a tabela fato `vendas` e as dimensões `veiculos`, `clientes` e `Calendario` (tabela de datas em DAX). Os números batem com os do chatbot e com os testes: 985 vendas e faturamento de 59.835.220,02.
+
+Para abrir: Power BI Desktop → *Arquivo → Abrir* → `powerbi/VendasCarros.pbip` → **Atualizar**. Se o repositório estiver em outra pasta, ajuste o parâmetro `PastaDados` em *Transformar dados*.
 
 ### Visão geral dos dados
 
@@ -81,7 +84,7 @@ flowchart LR
     CHROMA --> R
     AG -->|consultar_sql| DB
     AG -->|resposta + fontes| UI
-    XLSX --> PBI[📊 Power BI]
+    CSV --> PBI[📊 Power BI<br/>PBIP versionado]
 ```
 
 ## 💬 Perguntas que o chatbot responde
@@ -108,13 +111,14 @@ As cinco primeiras foram validadas na etapa de recuperação: o documento corret
 - **Reranker opcional (cross-encoder).** O embedding (bi-encoder) compara vetores pré-calculados: é rápido, mas aproximado. O reranker lê pergunta e documento juntos e reordena os candidatos (10 resumos → 3, 20 vendas → 5). Medições em CPU: `bge-reranker-v2-m3-int8` levou ~60 s por pergunta; `ms-marco-MiniLM-L-12-v2`, ~3 s para 10 candidatos. Como os títulos descritivos já colocam o resumo certo no top-3, ele fica **desligado por padrão** (`RERANK_MODEL` no `.env` liga). Não tem custo de API, só latência e memória.
 - **Custo zero por padrão.** Embeddings, reranker e banco rodam localmente, e o LLM padrão é um modelo gratuito do OpenRouter (`google/gemma-4-31b-it:free`), com suporte a chamada de ferramentas. O plano gratuito tem limite diário de requisições, e o agente faz 2 a 3 chamadas por pergunta. Para uso contínuo, basta trocar `OPENROUTER_MODEL` por um modelo pago barato (por exemplo, `deepseek/deepseek-v4-flash`, cerca de US$ 0,80 por mil perguntas).
 - **Transparência.** Toda resposta lista as fontes consultadas, e o Chainlit mostra cada chamada de ferramenta (inclusive o SQL executado).
-- **Privacidade (LGPD).** A planilha original tem o nome dos clientes. O script de exportação descarta os nomes e gera IDs anônimos (`CLI-0001`…) numerados pela ordem da primeira compra, e não pela ordem alfabética, para não revelar nada sobre o nome. A planilha e o `.pbix` não são versionados.
+- **Privacidade (LGPD).** A planilha original tem o nome dos clientes. O script de exportação descarta os nomes e gera IDs anônimos (`CLI-0001`…) numerados pela ordem da primeira compra, e não pela ordem alfabética, para não revelar nada sobre o nome. A planilha original não é versionada; o dashboard usa só os CSVs anonimizados.
 
 ## 🗂️ Estrutura
 
 ```text
 data/                     CSVs da base (vendas, veículos, clientes anonimizados)
 docs/img/                 imagens do README
+powerbi/                  dashboard Power BI (PBIP: modelo TMDL + relatório PBIR)
 scripts/export_data.py    planilha .xlsx -> 3 CSVs anonimizados
 scripts/gerar_graficos.py gera docs/img/visao-geral-vendas.png
 src/documents.py          monta os textos de vendas e resumos (sem dependência de LLM)

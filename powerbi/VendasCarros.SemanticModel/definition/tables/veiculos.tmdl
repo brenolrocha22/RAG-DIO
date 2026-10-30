@@ -1,0 +1,32 @@
+table veiculos
+	lineageTag: a92133f3-0a66-415e-b7bc-01ce0bf270f7
+
+	column vehicle_id
+		dataType: string
+		isHidden
+		lineageTag: 094834d1-d6ca-4243-9807-f598590bd465
+		summarizeBy: none
+		sourceColumn: vehicle_id
+
+	column marca
+		dataType: string
+		lineageTag: a31f8217-60a1-4a49-a0e0-d206f4e0a833
+		summarizeBy: none
+		sourceColumn: marca
+
+	column modelo
+		dataType: string
+		lineageTag: 35af9bb8-d451-4eda-b70d-7726cb7b3864
+		summarizeBy: none
+		sourceColumn: modelo
+
+	partition veiculos = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "veiculos.csv"), [Delimiter=",", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Cabecalhos = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalhos, {{"vehicle_id", type text}, {"marca", type text}, {"modelo", type text}}, "en-US")
+				in
+				    Tipos
+
